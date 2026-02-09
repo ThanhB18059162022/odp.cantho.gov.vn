@@ -1,0 +1,789 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<row _id="1"><STT>1</STT><Ten nha may nuoc> Dũng Tiến II</Ten nha may nuoc><Vi tri>Thôn Đan Điền xã Dũng Tiến, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2010</Nam xay dung><Dien tich 
+(m2)>7660</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>4000</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- 100% xã Giang Biên, 
+- 100% Dũng Tiến,
+- Thôn 3,4,5,6,7,8 xã Trung Lập,
+- Thôn 4,5,6,7,8,9,10 xã Việt Tiến</Vung phuc vu><So ho cung cap nuoc sach>5629</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="2"><STT>2</STT><Ten nha may nuoc> Vĩnh Long II</Ten nha may nuoc><Vi tri>Thôn Lô Đông, Xã Vĩnh Long, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2015</Nam xay dung><Dien tich 
+(m2)>3800</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>5000</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- 100% xã Vĩnh Long; 
+- 100% xã Hiệp Hòa; 
+- 100% xã Hùng Tiến; 
+- 06/9 thôn xã An Hòa (An Lãng, Kênh Hữu, Tạ Ngoại 1, Tạ Ngoại 2, Nội Tạ; 
+- 04/10 thôn xã Thắng Thủy (Hà Phương 1,2,3,4)</Vung phuc vu><So ho cung cap nuoc sach>6685</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="3"><STT>3</STT><Ten nha may nuoc> Liên Am</Ten nha may nuoc><Vi tri>Thôn Hậu Đông, xã Liên Am, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2008</Nam xay dung><Dien tich 
+(m2)>3633,8</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>3000</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- 100% Hòa Bình;
+- 65% Lý Học; 
+- 60% Liên Am;
+- 11% xã Trấn Dương; 
+- 10% xã Tam Cường.</Vung phuc vu><So ho cung cap nuoc sach>4455</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="4"><STT>4</STT><Ten nha may nuoc> Cao Minh</Ten nha may nuoc><Vi tri>Thôn Vạn Hoạch, xã Cao Minh, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2010</Nam xay dung><Dien tich 
+(m2)>3000</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>3000</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- 100% Cao Minh; 
+- 35% Lý Học (2 thôn); 
+- 40% Liên Am (3 thôn); 
+- 80% Vĩnh Tiến (4/5 thôn); 
+- 90% xã Tam Cường (10/11 thôn); 
+- 100% xã Cổ Am.</Vung phuc vu><So ho cung cap nuoc sach>7428</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="5"><STT>5</STT><Ten nha may nuoc> Tiền Phong 2</Ten nha may nuoc><Vi tri>Thôn Linh Đông 3, xã Tiền Phong, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2015</Nam xay dung><Dien tich 
+(m2)>14000</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>6000</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- 100%  xã Tiền Phong;
+- 100% xã Vĩnh Phong; 
+- 75% xã Đồng Minh (9/12 thôn: Hồng Thái, Song Hùng, Quyết Thắng, Đồng Tiến, Quyết Tiến, Cấp Lực, Hùng Chiến, Thái Hoà, Quân Thiềng); 
+- 85% xã Hưng Nhân (6/7 thôn: Hoàng Kênh, Bến Vọng, An Biên, Kê Sơn 1, Kê Sơn 2, Kênh Trạch);
+- 5% xã Thanh Lương (thôn Thanh Khê); Thôn An Quý xã Cộng Hiền, Thị trấn An Bài huyện Quỳnh Phụ, Thái Bình.</Vung phuc vu><So ho cung cap nuoc sach>5629</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="6"><STT>6</STT><Ten nha may nuoc> Thanh Lương</Ten nha may nuoc><Vi tri>Thôn An Trì, xã Thanh Lương, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2012</Nam xay dung><Dien tich 
+(m2)>3610</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>1200</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- 100 % xã Thanh Lương; 
+- Xã Vinh Quang (02/5 thôn); 
+- Xã Đồng Minh (3/12 thôn).</Vung phuc vu><So ho cung cap nuoc sach>2290</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="7"><STT>7</STT><Ten nha may nuoc> Trấn Dương</Ten nha may nuoc><Vi tri>Thôn Ngãi Đông, Trấn Dương, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2013</Nam xay dung><Dien tich 
+(m2)>4800</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>2880</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- 08 thôn: Dương Tiền, Ngải Đông, Trấn Nam, Đồng Tâm, Trấn Hải, Dương Am, Bảo Ngãi, Vĩnh Dương, xã Trấn Dương; 
+- Xã Vĩnh Tiến (thôn 4,5)</Vung phuc vu><So ho cung cap nuoc sach>1840</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="8"><STT>8</STT><Ten nha may nuoc> Thắng Thủy</Ten nha may nuoc><Vi tri>Thôn Đông Lôi, Xã Thắng Thủy, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2010, 2014</Nam xay dung><Dien tich 
+(m2)>865</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>1000</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Xã Thắng Thủy</Vung phuc vu><So ho cung cap nuoc sach>1400</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="9"><STT>9</STT><Ten nha may nuoc>Tiên Cường</Ten nha may nuoc><Vi tri>Thôn Đại Độ, xã Tiên Cường, huyện Tiên Lãng</Vi tri><Nam xay dung>2013</Nam xay dung><Dien tich 
+(m2)>3907,4</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>5000</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- 100% xã Tự Cường;
+- Toàn bộ thôn Tiên Cựu, thôn Đại Công, các hộ ven đường quốc lộ 10 thuộc thôn Đại Độ và 3/4 địa giới thôn Đại Độ, 1/3 thôn Thiên Kha và khu chăn nuôi tập trung thôn Sinh Đan, 1/2 địa giới thôn An Thung và khu chợ Hòa Bình, xã Tiên Cường;
+- Xã Đại Thắng (thôn Châm Kê).</Vung phuc vu><So ho cung cap nuoc sach>3167</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="10"><STT>10</STT><Ten nha may nuoc>Đại Thắng 2</Ten nha may nuoc><Vi tri>Thôn Lãng Liên, xã Đại Thắng, huyện Tiên Lãng</Vi tri><Nam xay dung>2016</Nam xay dung><Dien tich 
+(m2)>11382</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>1500</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- 100% xã Đại Thắng
+- 70% xã Tiên Cường</Vung phuc vu><So ho cung cap nuoc sach>2710</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="11"><STT>11</STT><Ten nha may nuoc>Bắc Hưng</Ten nha may nuoc><Vi tri>Thôn Vân Kỳ, xã Bắc Hưng, huyện Tiên Lãng</Vi tri><Nam xay dung>2007</Nam xay dung><Dien tich 
+(m2)>1670</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>900</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- Xã Tiên Thắng;
+- Xã Bắc Hưng;
+- Các thôn xã Nam Hưng (trừ thôn Xuân Trại 1, 2, Bạch xã trại);
+- Thôn Thái Hưng, Trung Hưng, Thủy Hưng, xã Đông Hưng.</Vung phuc vu><So ho cung cap nuoc sach>1459</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="12"><STT>12</STT><Ten nha may nuoc>Kiến Thiết </Ten nha may nuoc><Vi tri>Thôn An Thạch, xã Kiến Thiết, huyện Tiên Lãng</Vi tri><Nam xay dung>2010, 2012</Nam xay dung><Dien tich 
+(m2)>3310</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>700</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- Xã Kiến Thiết;
+- 34% xã Bạch Đằng (1 thôn Pháp Xuyên 1); 
+- 41% xã Đoàn Lập  (6 thôn Tiên Đôi Nội, Tiên đôi Ngoại, Hộ Tứ Nội, Hộ Tứ Ngoại, Tân Lập, Nhân Vực)</Vung phuc vu><So ho cung cap nuoc sach>4075</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="13"><STT>13</STT><Ten nha may nuoc>Quang Phục </Ten nha may nuoc><Vi tri>Thôn Lật Dương, xã Quang Phục, huyện Tiên Lãng</Vi tri><Nam xay dung>2004, 2013</Nam xay dung><Dien tich 
+(m2)>840</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>700</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Xã  Quang Phục</Vung phuc vu><So ho cung cap nuoc sach>2250</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="14"><STT>14</STT><Ten nha may nuoc>Vinh Quang</Ten nha may nuoc><Vi tri>Thôn Yên xã Vinh Quang, huyện Tiên Lãng</Vi tri><Nam xay dung>2010</Nam xay dung><Dien tich 
+(m2)>1053</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>500</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Xã Vinh Quang cũ (không tính xã Tiên Hưng sát nhập)</Vung phuc vu><So ho cung cap nuoc sach>1300</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="15"><STT>15</STT><Ten nha may nuoc>Đoàn Lập 2</Ten nha may nuoc><Vi tri>Thôn Tiên Đội Ngoại, xã Đoàn Lập, huyện Tiên Lãng</Vi tri><Nam xay dung>2012</Nam xay dung><Dien tich 
+(m2)>1347</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>200</Cong suat 
+(m3/ngay dem)><Vung phuc vu>NMN đang cấp nước cho xã Đoàn Lập: thôn Tiên Đôi Nội, Vân Đôi, Tử Đôi, Tỉnh Lạc, Tiên Đôi Ngoại, Đông Xuyên Ngoại </Vung phuc vu><So ho cung cap nuoc sach>700</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="16"><STT>16</STT><Ten nha may nuoc>Bạch Đằng</Ten nha may nuoc><Vi tri>Thôn Xuân Lai, xã Bạch Đằng, huyện Tiên Lãng</Vi tri><Nam xay dung>2011</Nam xay dung><Dien tich 
+(m2)>1100</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>200</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Xã Bạch Đằng (từ thôn 2 đến thôn thôn 10, 9/10 thôn của xã)</Vung phuc vu><So ho cung cap nuoc sach>1000</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="17"><STT>17</STT><Ten nha may nuoc>Toàn Thắng </Ten nha may nuoc><Vi tri>Thôn Đốc Hành, xã Toàn Thắng, huyện Tiên Lãng</Vi tri><Nam xay dung>2009, 2012</Nam xay dung><Dien tich 
+(m2)>1150</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="18"><STT>18</STT><Ten nha may nuoc>Tây Hưng</Ten nha may nuoc><Vi tri>thôn Minh Hưng, xã Tây Hưng, huyện Tiên Lãng</Vi tri><Nam xay dung>2007</Nam xay dung><Dien tich 
+(m2)>1120</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>200</Cong suat 
+(m3/ngay dem)><Vung phuc vu>+ Xã Tây Hưng: 100% số hộ dân;
++ Xã Đông Hưng: đội 9, 10, 11, 12;
++ Xã Nam Hưng: thôn Cái Cả, Bạch Sa, Xuân Trại. Thanh Lan;</Vung phuc vu><So ho cung cap nuoc sach>1140</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="19"><STT>19</STT><Ten nha may nuoc>Hùng Thắng</Ten nha may nuoc><Vi tri>Thôn 5, xã Hùng Thắng, huyện Tiên Lãng</Vi tri><Nam xay dung>2015</Nam xay dung><Dien tich 
+(m2)>4490</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>500</Cong suat 
+(m3/ngay dem)><Vung phuc vu>+ Xã Hùng Thắng;
++ Xã Tiên Hưng cũ (xã Vinh Quang hiện tại)
++ Xã Nam Hưng: thôn Cái Cả, Bạch Sa, Xuân Trại. Thanh Lan.</Vung phuc vu><So ho cung cap nuoc sach>2520</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="20"><STT>20</STT><Ten nha may nuoc>Tiên Thanh</Ten nha may nuoc><Vi tri>Thôn Kim Đới, xã Tiên Thanh, huyện Tiên Lãng</Vi tri><Nam xay dung>2011</Nam xay dung><Dien tich 
+(m2)>3234</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="21"><STT>21</STT><Ten nha may nuoc>Khởi Nghĩa</Ten nha may nuoc><Vi tri>Thôn An Tử, xã Khởi Nghĩa, huyện Tiên Lãng</Vi tri><Nam xay dung>2012, 2014</Nam xay dung><Dien tich 
+(m2)>1200</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>400</Cong suat 
+(m3/ngay dem)><Vung phuc vu>03 xã: 
++ Xã Khởi Nghĩa: toàn xã;
++ Xã Quyết Tiến: toàn xã;
++ Xã Tiên Thanh: toàn xã.</Vung phuc vu><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="22"><STT>22</STT><Ten nha may nuoc>Trường Thọ</Ten nha may nuoc><Vi tri>Thôn Ngọc Chử, xã Trường Thọ, huyện An Lão</Vi tri><Nam xay dung>2008, 2013</Nam xay dung><Dien tich 
+(m2)>2263,6 </Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>8000</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- Xã Trường Thành;
+- Xã Trường Thọ</Vung phuc vu><So ho cung cap nuoc sach>4250</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="23"><STT>23</STT><Ten nha may nuoc>An Tiến</Ten nha may nuoc><Vi tri>Thôn Khúc Giản, xã An Tiến, huyện An Lão</Vi tri><Nam xay dung>2004</Nam xay dung><Dien tich 
+(m2)>3613</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>5000</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- 100% khu Quyết Thắng và khu Trung Dũng, thị trấn An Lão;
+- 100% xã An Tiến;
+- 100% xã An Thắng;
+- 40% thôn Chi Lai, xã Trưởng Thành</Vung phuc vu><So ho cung cap nuoc sach>4673</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="24"><STT>24</STT><Ten nha may nuoc>Quang Trung I, III</Ten nha may nuoc><Vi tri>Thôn Câu Hạ A, xã Quang Trung, huyện An Lão</Vi tri><Nam xay dung>2003, 2011</Nam xay dung><Dien tich 
+(m2)>9900</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>7000</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- 100% Xã Quang Trung;
+- 92% Xã Quốc Tuấn;
+- 65% Xã Quang Hưng;
+- 52% khu Hoàng Xá, thị trấn An Lão</Vung phuc vu><So ho cung cap nuoc sach>6999</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="25"><STT>25</STT><Ten nha may nuoc>Quang Hưng</Ten nha may nuoc><Vi tri>Thôn Trung Trang, xã Bát Trang, huyện An Lão</Vi tri><Nam xay dung>2010, 2012</Nam xay dung><Dien tich 
+(m2)>704</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>600</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Thôn Câu Thượng, xã Quang Hưng</Vung phuc vu><So ho cung cap nuoc sach>860</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="26"><STT>26</STT><Ten nha may nuoc>Bát Trang</Ten nha may nuoc><Vi tri>Thôn Hạ Trang, xã Bát Trang, huyện An Lão</Vi tri><Nam xay dung>2002, 2009, 2011</Nam xay dung><Dien tich 
+(m2)>2561</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>2000</Cong suat 
+(m3/ngay dem)><Vung phuc vu>'Xã Bát Trang</Vung phuc vu><So ho cung cap nuoc sach>2918</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="27"><STT>27</STT><Ten nha may nuoc>Trường Thành </Ten nha may nuoc><Vi tri>Thôn Phương Tử Nam, xã Trường Thành, huyện An Lão</Vi tri><Nam xay dung>2004, 2013</Nam xay dung><Dien tich 
+(m2)>100</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>1665</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Thôn Hòa Chử, Thủy Giang, Phương Chử Tây, Phương Chử Nam, Phương Chử Đông, Chi Lai, xã Trường Thành</Vung phuc vu><So ho cung cap nuoc sach>1960</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="28"><STT>28</STT><Ten nha may nuoc>Trường Thọ II</Ten nha may nuoc><Vi tri>Thôn Liễu Dinh xã Trường Thọ, huyện An Lão</Vi tri><Nam xay dung>2011</Nam xay dung><Dien tich 
+(m2)>1000</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>1980</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Thôn Liễu Dinh, xã Trường Thọ</Vung phuc vu><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="29"><STT>29</STT><Ten nha may nuoc>An Thắng III</Ten nha may nuoc><Vi tri>Thôn Trần Phú, xã An Thắng, huyện An Lão</Vi tri><Nam xay dung>2015</Nam xay dung><Dien tich 
+(m2)>700</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>720</Cong suat 
+(m3/ngay dem)><Vung phuc vu> Thôn Bách Phương 2,3,4 và thôn Trần Phú, xã An Thắng</Vung phuc vu><So ho cung cap nuoc sach>808</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="30"><STT>30</STT><Ten nha may nuoc>Quốc Tuấn II</Ten nha may nuoc><Vi tri>Thôn Hạ Câu, xã Quốc Tuấn, huyện An Lão</Vi tri><Nam xay dung>2010</Nam xay dung><Dien tich 
+(m2)>1800</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>3000</Cong suat 
+(m3/ngay dem)><Vung phuc vu> Thôn Hạ Câu, Đông Nham</Vung phuc vu><So ho cung cap nuoc sach>236</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="31"><STT>31</STT><Ten nha may nuoc>Dụ Nghĩa </Ten nha may nuoc><Vi tri>Thôn Dụ Nghĩa, Lê Thiện, huyện An Dương</Vi tri><Nam xay dung>2003, 2010</Nam xay dung><Dien tich 
+(m2)>4500</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>3900</Cong suat 
+(m3/ngay dem)><Vung phuc vu>70% xã Lê Thiện, 100% xã Đại Bản</Vung phuc vu><So ho cung cap nuoc sach>6885</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="32"><STT>32</STT><Ten nha may nuoc>Tân Tiến</Ten nha may nuoc><Vi tri>Thôn Kinh Giao 1, Tân Tiến, huyện An Dương</Vi tri><Nam xay dung>2001, 2006</Nam xay dung><Dien tich 
+(m2)>2689</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>500</Cong suat 
+(m3/ngay dem)><Vung phuc vu>4 xã: 50% xã Tân Tiến; 2% xã Lê Thiện; 1% xã An Hưng; 1% xã Đại Bản</Vung phuc vu><So ho cung cap nuoc sach>1348</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="33"><STT>33</STT><Ten nha may nuoc>Kim Sơn</Ten nha may nuoc><Vi tri>Thôn Kim Sơn, Lê Thiện, huyện An Dương</Vi tri><Nam xay dung>2008</Nam xay dung><Dien tich 
+(m2)>3600</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>3500</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- Thôn Kim Sơn, xã Lê Thiện;
+- Xã Kim Liên, Kim Thành, Hải Dương (04/05 thôn)</Vung phuc vu><So ho cung cap nuoc sach>2621</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="34"><STT>34</STT><Ten nha may nuoc>Nam Sơn</Ten nha may nuoc><Vi tri>Km8+200 thôn Mỹ Tranh, Nam Sơn, huyện An Dương</Vi tri><Nam xay dung>2002</Nam xay dung><Dien tich 
+(m2)>2551.2</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>2000</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Xã Nam Sơn (thôn Mỹ Tranh, Lương Quán, Cống Mỹ, Cách Hạ)</Vung phuc vu><So ho cung cap nuoc sach>1791</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="35"><STT>35</STT><Ten nha may nuoc>Hồng Phong</Ten nha may nuoc><Vi tri>Thôn Hạ Đỗ, Hồng Phong, huyện An Dương</Vi tri><Nam xay dung>2007</Nam xay dung><Dien tich 
+(m2)>3120</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>500</Cong suat 
+(m3/ngay dem)><Vung phuc vu>35% xã Hồng Phong (3/8 thôn Hạ Đỗ 1,2, Hỗ Đông)</Vung phuc vu><So ho cung cap nuoc sach>1112</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="36"><STT>36</STT><Ten nha may nuoc>An Hoà I</Ten nha may nuoc><Vi tri>Thôn Tỉnh Thuỷ, An Hoà, huyện An Dương</Vi tri><Nam xay dung>2006</Nam xay dung><Dien tich 
+(m2)>825</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>500</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Thôn Tỉnh Thủy, xã An Hòa</Vung phuc vu><So ho cung cap nuoc sach>532</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="37"><STT>37</STT><Ten nha may nuoc>An Hoà II</Ten nha may nuoc><Vi tri>Thôn Ngọ Dương 3, An Hoà, huyện An Dương</Vi tri><Nam xay dung>2007</Nam xay dung><Dien tich 
+(m2)>727</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>400</Cong suat 
+(m3/ngay dem)><Vung phuc vu>30% xã An Hòa (5 cụm dân cư 1,2,3,4,5 thôn Ngọ Dương)</Vung phuc vu><So ho cung cap nuoc sach>1100</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="38"><STT>38</STT><Ten nha may nuoc>An Hoà III</Ten nha may nuoc><Vi tri>Thôn Hà Nhuận 1,2 xã An Hoà, huyện An Dương</Vi tri><Nam xay dung>2009</Nam xay dung><Dien tich 
+(m2)>595</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>300</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Thôn Phú La, Phú Dưỡng, Hà Nhuận 1, Hà Nhuận 2, xã An Hòa</Vung phuc vu><So ho cung cap nuoc sach>750</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="39"><STT>39</STT><Ten nha may nuoc>An Hoà IV</Ten nha may nuoc><Vi tri>Thôn Hà Nhuận 3,4 xã An Hoà, huyện An Dương</Vi tri><Nam xay dung>2010</Nam xay dung><Dien tich 
+(m2)>666</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>500</Cong suat 
+(m3/ngay dem)><Vung phuc vu>13% Xã An Hòa (2 cụm dân cư 3, 4 thôn Hà Nhuận)</Vung phuc vu><So ho cung cap nuoc sach>457</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="40"><STT>40</STT><Ten nha may nuoc>Hữu Bằng</Ten nha may nuoc><Vi tri>Thôn Tam Kiệt, Xã Hữu Bằng, huyện Kiến Thuỵ</Vi tri><Nam xay dung>2009, 2011</Nam xay dung><Dien tich 
+(m2)>4363</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>6000</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- 90% xã Hữu Bằng,
+- 100% Thị Trấn,
+- Thôn Phương Đôi, xã Thụy Hương.</Vung phuc vu><So ho cung cap nuoc sach>4107</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="41"><STT>41</STT><Ten nha may nuoc>Kiến Quốc</Ten nha may nuoc><Vi tri>Xã Kiến Quốc, huyện Kiến Thuỵ</Vi tri><Nam xay dung>2005, 2011</Nam xay dung><Dien tich 
+(m2)>34194</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>6000</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Xã Kiến Quốc, xã Thụy Hương, xã Thanh Sơn</Vung phuc vu><So ho cung cap nuoc sach>2579</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="42"><STT>42</STT><Ten nha may nuoc> Ngũ Đoan II</Ten nha may nuoc><Vi tri>Thôn Hòa Nhất, xã Ngũ Đoan, huyện Kiến Thuỵ</Vi tri><Nam xay dung>2010, 2011</Nam xay dung><Dien tich 
+(m2)>7034</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="43"><STT>43</STT><Ten nha may nuoc>Thanh Sơn</Ten nha may nuoc><Vi tri>Xã Thanh Sơn, huyện Kiến Thuỵ</Vi tri><Nam xay dung>2005, 2010, 2013</Nam xay dung><Dien tich 
+(m2)>1056</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>2000</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- Xã Thanh Sơn,
+- 02 thôn Trà Phương và Quế Lâm, xã Thuỵ Hương</Vung phuc vu><So ho cung cap nuoc sach>2800</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="44"><STT>44</STT><Ten nha may nuoc> Minh Tân</Ten nha may nuoc><Vi tri>Thôn Thù Du, xã Minh Tân, huyện Kiến Thuỵ</Vi tri><Nam xay dung>2006, 2010, 2012</Nam xay dung><Dien tich 
+(m2)>1997</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>3360</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Xã Minh Tân</Vung phuc vu><So ho cung cap nuoc sach>1996</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="45"><STT>45</STT><Ten nha may nuoc>Đại Đồng</Ten nha may nuoc><Vi tri>xã Đại Đồng, huyện Kiến Thuỵ</Vi tri><Nam xay dung>2010</Nam xay dung><Dien tich 
+(m2)>915</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>1000</Cong suat 
+(m3/ngay dem)><Vung phuc vu>xã Đại Đồng</Vung phuc vu><So ho cung cap nuoc sach>1800</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="46"><STT>46</STT><Ten nha may nuoc> Đoàn Xá</Ten nha may nuoc><Vi tri>Xã Đoàn Xá, huyện Kiến Thuỵ</Vi tri><Nam xay dung>2007, 2010, 2012</Nam xay dung><Dien tich 
+(m2)>1417</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>2000</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- Xã Đoàn Xá;
+- 03 thôn Đông Tác 1,2, 01 phần thôn Đại Lộc (Việt Tiến 3 cũ), xã Đại Hợp</Vung phuc vu><So ho cung cap nuoc sach>2550</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="47"><STT>47</STT><Ten nha may nuoc>Liên Khê</Ten nha may nuoc><Vi tri>Thôn 9 xã Liên Khê, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2009</Nam xay dung><Dien tich 
+(m2)>2713</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>2500</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- Xã Liên Khê;
+- Thôn Trúc Động và Trại Viên, xã Lưu Kiếm</Vung phuc vu><So ho cung cap nuoc sach>2459</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="48"><STT>48</STT><Ten nha may nuoc>Minh Tân</Ten nha may nuoc><Vi tri>Thôn 7 xã Minh Tân, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2003, 2015</Nam xay dung><Dien tich 
+(m2)>1963,7</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>3500</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- 10 thôn xã Minh Tân (từ thôn 1 đến thôn 10) 
+- Thôn Phúc Lam , Thôn Trung, Thôn Bắc, Thôn 1A, Thôn 1B, xã Lưu Kiếm</Vung phuc vu><So ho cung cap nuoc sach>3810</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="49"><STT>49</STT><Ten nha may nuoc>Đông Sơn I+ II</Ten nha may nuoc><Vi tri>Thôn 7 xã Đông Sơn, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2006, 2014</Nam xay dung><Dien tich 
+(m2)>5000</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>4000</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- 100% Xã Đông Sơn;
+- 48% Xã Kênh Giang;
+- Đã cấp 13% xã Hòa Bình, đang triển khai cấp 30% của thôn Hà Phú 1, Hà Phú 2, xã Hòa Bình</Vung phuc vu><So ho cung cap nuoc sach>3228</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="50"><STT>50</STT><Ten nha may nuoc>An Lư</Ten nha may nuoc><Vi tri>Thôn Sim, xã An Lư, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2003, 2007</Nam xay dung><Dien tich 
+(m2)>4500</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>3000</Cong suat 
+(m3/ngay dem)><Vung phuc vu>94% xã An Lư; 10% thôn Thủy An , xã Thủy Đường; 30% xã Trung Hà</Vung phuc vu><So ho cung cap nuoc sach>3162</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="51"><STT>51</STT><Ten nha may nuoc>Ngũ Lão II</Ten nha may nuoc><Vi tri>Thôn 13, xã Ngũ Lão, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2014</Nam xay dung><Dien tich 
+(m2)>3036</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>5000</Cong suat 
+(m3/ngay dem)><Vung phuc vu>-58% xã Ngũ Lão (12 thôn từ thôn 3 đến thôn 15);
+- 76% xã Phục lễ (Thôn Đông, Trung, Nam, Sỏ 1, Sỏ 2, 1/2 thôn Bấc);
+- 75% xã Thủy Triều (Thôn 1,2,7,8, Đông, Tây, Giữa);
+- Thôn 2 xã Phả Lễ; 
+- Bán buôn sang Phả Lễ qua đồng hồ tổng từ tháng 2/2024 </Vung phuc vu><So ho cung cap nuoc sach>5144</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="52"><STT>52</STT><Ten nha may nuoc>Phả Lễ I</Ten nha may nuoc><Vi tri>xã Phả Lễ, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2000</Nam xay dung><Dien tich 
+(m2)>1100</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>4500</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- Thôn 2, thôn 3, thôn 4, 1/2 thôn 6 xã Phả Lễ;
+- 100% Xã Lập Lễ;
+- Khu kinh tế mới Vũ Yên, thôn 8, xã Thủy Triều.</Vung phuc vu><So ho cung cap nuoc sach>3726</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="53"><STT>53</STT><Ten nha may nuoc>Chính Mỹ</Ten nha may nuoc><Vi tri>Thôn 11, xã Chính Mỹ, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2013</Nam xay dung><Dien tich 
+(m2)>3500</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>7000</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- 100% xã Chính Mỹ; 
+- Thôn Tân, thôn Mẫn, thôn Giữa, Đống Lứa, thôn Trại Nốt, thôn Đông, thôn Vối, thôn Giếng, thôn Đỏ xã Quảng Thanh; 
+- Thôn Nhân Lý, xã Cao Nhân;
+- Bán nước qua đồng hồ tổng cho NMN Kỳ Sơn (thôn 1, 2, 3, 4, 5, 6, 10, xã Kỳ Sơn).</Vung phuc vu><So ho cung cap nuoc sach>5478</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="54"><STT>54</STT><Ten nha may nuoc>Hoa Động</Ten nha may nuoc><Vi tri>Thôn 7, xã Hoa Động, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2005</Nam xay dung><Dien tich 
+(m2)>6668.8</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>1500</Cong suat 
+(m3/ngay dem)><Vung phuc vu>85% xã Hoa Động (10 thôn)</Vung phuc vu><So ho cung cap nuoc sach>3328</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="55"><STT>55</STT><Ten nha may nuoc>Ngũ Lão I</Ten nha may nuoc><Vi tri>Thôn My Sơn, xã Ngũ Lão, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2005</Nam xay dung><Dien tich 
+(m2)>2456</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>4500</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- 100% xã Trung Hà; 
+- 100% xã Tam Hưng,
+ - Xã Ngũ Lão cấp 14 thôn 1693/3000 hộ);
+ - Xã Phục Lễ cấp 2 thôn 532/1600 hộ)</Vung phuc vu><So ho cung cap nuoc sach>5235</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="56"><STT>56</STT><Ten nha may nuoc>Lưu Kiếm I</Ten nha may nuoc><Vi tri>Khu cầu giá xã Lưu Kiếm, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2005</Nam xay dung><Dien tich 
+(m2)>360</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>1500</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Các thôn: 1A, 1B, Nam, Trung, Bắc, Trại Viên, thôn Giữa, xã Lưu Kiếm</Vung phuc vu><So ho cung cap nuoc sach>768</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="57"><STT>57</STT><Ten nha may nuoc>Gia Minh</Ten nha may nuoc><Vi tri>Thôn 3, xã Gia Minh, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2016</Nam xay dung><Dien tich 
+(m2)>595</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>1500</Cong suat 
+(m3/ngay dem)><Vung phuc vu>100% xã Gia Minh; 
+100% xã Lưu Kỳ</Vung phuc vu><So ho cung cap nuoc sach>1670</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="58"><STT>58</STT><Ten nha may nuoc>Lại Xuân I</Ten nha may nuoc><Vi tri>Thôn Doãn Lại, xã Lại Xuân, huyện Thuỷ Nguyên </Vi tri><Nam xay dung>2005, 2010</Nam xay dung><Dien tich 
+(m2)>2352.4</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>600</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Xã Lại Xuân: thôn Doãn Lại, thôn Pháp Cổ</Vung phuc vu><So ho cung cap nuoc sach>1402</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="59"><STT>59</STT><Ten nha may nuoc>Cao Nhân II</Ten nha may nuoc><Vi tri>Thôn 8 xã Cao Nhân </Vi tri><Nam xay dung>2012</Nam xay dung><Dien tich 
+(m2)>1500</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>1500</Cong suat 
+(m3/ngay dem)><Vung phuc vu>- 98% Xã Cao Nhân;
+- 15% xã Quảng Thanh;
+- 25% xã Mỹ Đồng.</Vung phuc vu><So ho cung cap nuoc sach>3500</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="60"><STT>60</STT><Ten nha may nuoc>An Sơn </Ten nha may nuoc><Vi tri>Thôn 7, xã An Sơn, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2005, 2008</Nam xay dung><Dien tich 
+(m2)>1398.1</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>250</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Thôn 1 đến thôn 6, xã An Sơn</Vung phuc vu><So ho cung cap nuoc sach>1019</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="61"><STT>61</STT><Ten nha may nuoc>Kỳ Sơn I</Ten nha may nuoc><Vi tri>Thôn 5, xã Kỳ Sơn, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2004</Nam xay dung><Dien tich 
+(m2)>368</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>200</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Thôn 7, 8, 9 xã Kỳ Sơn;</Vung phuc vu><So ho cung cap nuoc sach>500</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="62"><STT>62</STT><Ten nha may nuoc>Kỳ Sơn II</Ten nha may nuoc><Vi tri>Thôn 5, xã Kỳ Sơn, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2009</Nam xay dung><Dien tich 
+(m2)>738</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>200</Cong suat 
+(m3/ngay dem)><Vung phuc vu> Thôn 1, 2, 3, 4, 5 và thôn 6, xã Kỳ Sơn;</Vung phuc vu><So ho cung cap nuoc sach>140</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="63"><STT>63</STT><Ten nha may nuoc>Hợp Thành I</Ten nha may nuoc><Vi tri>Thôn 8, xã Hợp Thành, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2002</Nam xay dung><Dien tich 
+(m2)>560</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>480</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Thôn 3, 4, 5, 6, 7, xã Hợp Thành;</Vung phuc vu><So ho cung cap nuoc sach>1520</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="64"><STT>64</STT><Ten nha may nuoc>Quảng Thanh I</Ten nha may nuoc><Vi tri>Thôn Lứa, xã Quảng Thanh, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2000</Nam xay dung><Dien tich 
+(m2)>7000</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>400</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Xã Quảng Thanh (trừ thôn Quảng Cư), một phần của xã Phù Ninh và xã Kỳ Sơn;</Vung phuc vu><So ho cung cap nuoc sach>800</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="65"><STT>65</STT><Ten nha may nuoc>Thiên Hương</Ten nha may nuoc><Vi tri>Thôn 8, xã Thiên Hương, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2000</Nam xay dung><Dien tich 
+(m2)>1068</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>200</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Thôn 3 mới và Công ty Giày Aurora (xã Thiên Hương);</Vung phuc vu><So ho cung cap nuoc sach>500</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="66"><STT>66</STT><Ten nha may nuoc>Gia Đức I</Ten nha may nuoc><Vi tri>Thôn 1, xã Gia Đức, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2006</Nam xay dung><Dien tich 
+(m2)>1775</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>300</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Toàn bộ xã Gia Đức</Vung phuc vu><So ho cung cap nuoc sach>1200</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="67"><STT>67</STT><Ten nha may nuoc>Kênh Giang I</Ten nha may nuoc><Vi tri>Thôn Trại Kênh, xã Kênh Giang, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2005</Nam xay dung><Dien tich 
+(m2)>900</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>230</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Thôn A2, thôn Chu Vườn, thôn Chùa Mới, thôn Đình Vân, thôn Trại trên Đồng Phản, thôn Trại dưới xóm Ngói, thôn Chợ Giá, thôn 6 Mỹ Giang và Cống Găng thôn Đình-Trà Sơn</Vung phuc vu><So ho cung cap nuoc sach>725</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="68"><STT>68</STT><Ten nha may nuoc>Kênh Giang II</Ten nha may nuoc><Vi tri>Thôn Mỹ Giang, Thủy Nguyên, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2009</Nam xay dung><Dien tich 
+(m2)>1489.9</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>230</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Thôn 1, 3,6 (làng Mỹ Giang); thôn Đình, thôn Chùa (làng Trà Sơn), xã Kênh Giang</Vung phuc vu><So ho cung cap nuoc sach>400</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="69"><STT>69</STT><Ten nha may nuoc>Tân Dương</Ten nha may nuoc><Vi tri>Khu Trung cư đầm tràng xã Tân Dương, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2001</Nam xay dung><Dien tich 
+(m2)>3967</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>450</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Thôn 1,2,3,4A, 5,6,7, đường 10, xã Tân Dương</Vung phuc vu><So ho cung cap nuoc sach>1682</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="70"><STT>70</STT><Ten nha may nuoc>Thủy Triều III</Ten nha may nuoc><Vi tri>Xã Thủy Triều, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2011</Nam xay dung><Dien tich 
+(m2)>1456</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem)>300</Cong suat 
+(m3/ngay dem)><Vung phuc vu>12 thôn xã Thủy Triều và các thôn Trại, thôn Đông, thôn Ráp, thôn Tây (xã Trung Hà), thôn 13 (xã Ngũ Lão)</Vung phuc vu><So ho cung cap nuoc sach>2800</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="71"><STT>71</STT><Ten nha may nuoc>Hòa Bình II</Ten nha may nuoc><Vi tri>Xã Hòa Bình, huyện Thuỷ Nguyên</Vi tri><Nam xay dung xsi:nil="true" /><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="72"><STT>72</STT><Ten nha may nuoc>Phù Ninh I</Ten nha may nuoc><Vi tri>Xã Phù Ninh, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>1997</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem)>200</Cong suat 
+(m3/ngay dem)><Vung phuc vu>Thôn Việt Khê, thôn Ngọc Khê, thôn 2 Phù Lưu;</Vung phuc vu><So ho cung cap nuoc sach>500</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="73"><STT>73</STT><Ten nha may nuoc>Chính Mỹ I</Ten nha may nuoc><Vi tri>Xã Chính Mỹ, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2003</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem)>200</Cong suat 
+(m3/ngay dem)><Vung phuc vu> 12 thôn xã Chính Mỹ</Vung phuc vu><So ho cung cap nuoc sach>700</So ho cung cap nuoc sach><Trinh trang hoat dong>Đang hoạt động</Trinh trang hoat dong></row>
+<row _id="74"><STT>74</STT><Ten nha may nuoc> Giang Biên I</Ten nha may nuoc><Vi tri>Thôn 5,  xã Giang Biên, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2006</Nam xay dung><Dien tich 
+(m2)>652</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="75"><STT>75</STT><Ten nha may nuoc> Giang Biên II</Ten nha may nuoc><Vi tri>Thôn 6,  xã Giang Biên, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2010</Nam xay dung><Dien tich 
+(m2)>400</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="76"><STT>76</STT><Ten nha may nuoc> Dũng Tiến I</Ten nha may nuoc><Vi tri>Thôn An Bồ, xã Dũng Tiến, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2006</Nam xay dung><Dien tich 
+(m2)>720</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="77"><STT>77</STT><Ten nha may nuoc> Việt Tiến</Ten nha may nuoc><Vi tri> Thôn Liễu Kinh xã Việt Tiến, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2006</Nam xay dung><Dien tich 
+(m2)>1711</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="78"><STT>78</STT><Ten nha may nuoc> Trung Lập</Ten nha may nuoc><Vi tri> Thôn 3 Áng Dương xã Trung Lập, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2014</Nam xay dung><Dien tich 
+(m2)>750</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="79"><STT>79</STT><Ten nha may nuoc> An Hòa 1</Ten nha may nuoc><Vi tri> Thượng Đồng, xã An Hòa, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2005</Nam xay dung><Dien tich 
+(m2)>500</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="80"><STT>80</STT><Ten nha may nuoc> An Hòa 2</Ten nha may nuoc><Vi tri>Thôn Kênh Hữu,  xã An Hòa, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2009</Nam xay dung><Dien tich 
+(m2)>400</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="81"><STT>81</STT><Ten nha may nuoc> Hiệp Hòa</Ten nha may nuoc><Vi tri>Thôn Trúc Hiệp  xã Hiệp Hòa, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2006</Nam xay dung><Dien tich 
+(m2)>514</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="82"><STT>82</STT><Ten nha may nuoc> Tiền Phong 1</Ten nha may nuoc><Vi tri>Thôn Linh Đông,  xã Tiền Phong, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2005</Nam xay dung><Dien tich 
+(m2)>1000</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="83"><STT>83</STT><Ten nha may nuoc> Vĩnh Long 1</Ten nha may nuoc><Vi tri>Thôn Hà Hương, xã Vĩnh Long, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2005</Nam xay dung><Dien tich 
+(m2)>285</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="84"><STT>84</STT><Ten nha may nuoc> Vĩnh Tiến</Ten nha may nuoc><Vi tri>Thôn 2, xã Vĩnh Tiến, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2009</Nam xay dung><Dien tich 
+(m2)>1600</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="85"><STT>85</STT><Ten nha may nuoc> Cổ Am </Ten nha may nuoc><Vi tri>Thôn 3, xã Cổ Am, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2009, 2013</Nam xay dung><Dien tich 
+(m2)>4200</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="86"><STT>86</STT><Ten nha may nuoc> Đồng Minh</Ten nha may nuoc><Vi tri>Thôn Bảo Hà, xã Đồng Minh, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2009, 2014</Nam xay dung><Dien tich 
+(m2)>1700</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="87"><STT>87</STT><Ten nha may nuoc> Lý Học</Ten nha may nuoc><Vi tri>Thôn Lạng Am, xã Lý Học, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2008</Nam xay dung><Dien tich 
+(m2)>2000</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="88"><STT>88</STT><Ten nha may nuoc> Vĩnh Phong</Ten nha may nuoc><Vi tri>Thôn Quán Khái, xã Vĩnh Phong, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2005</Nam xay dung><Dien tich 
+(m2)>2000</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="89"><STT>89</STT><Ten nha may nuoc> Hưng Nhân</Ten nha may nuoc><Vi tri>Thôn Kê Sơn, xã Hưng Nhân, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2006</Nam xay dung><Dien tich 
+(m2)>2000</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="90"><STT>90</STT><Ten nha may nuoc>Vĩnh An 1</Ten nha may nuoc><Vi tri>Thôn An Ninh, xã Vĩnh An, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2007</Nam xay dung><Dien tich 
+(m2)>900</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="91"><STT>91</STT><Ten nha may nuoc>Vĩnh An 2</Ten nha may nuoc><Vi tri>Thôn Kim Ngân xã Vĩnh An, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2011</Nam xay dung><Dien tich 
+(m2)>2700</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="92"><STT>92</STT><Ten nha may nuoc> Hòa Bình</Ten nha may nuoc><Vi tri>Thôn 6, Hàm Dương, Hòa Bình, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2013</Nam xay dung><Dien tich 
+(m2)>5400</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="93"><STT>93</STT><Ten nha may nuoc> Cộng Hiền</Ten nha may nuoc><Vi tri>Thôn An Quý, Xã Cộng Hiền, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2008</Nam xay dung><Dien tich 
+(m2)>750</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="94"><STT>94</STT><Ten nha may nuoc> Hùng Tiến</Ten nha may nuoc><Vi tri>Thôn Xuân Hùng, xã Hùng Tiến, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2009</Nam xay dung><Dien tich 
+(m2)>2000</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="95"><STT>95</STT><Ten nha may nuoc> Vinh Quang</Ten nha may nuoc><Vi tri>Thôn Hu Trì, xã Vinh Quang, huyện Vĩnh Bảo</Vi tri><Nam xay dung>2009</Nam xay dung><Dien tich 
+(m2)>2000</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="96"><STT>96</STT><Ten nha may nuoc>Đoàn Lập 1</Ten nha may nuoc><Vi tri>Thôn Tân Lập 1, xã Đoàn Lập, huyện Tiên Lãng</Vi tri><Nam xay dung>2008</Nam xay dung><Dien tich 
+(m2)>2050</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="97"><STT>97</STT><Ten nha may nuoc>Cấp Tiến </Ten nha may nuoc><Vi tri>Thôn Phương Lai, xã Cấp Tiến, huyện Tiên Lãng</Vi tri><Nam xay dung>2008, 2014</Nam xay dung><Dien tich 
+(m2)>3529.5</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="98"><STT>98</STT><Ten nha may nuoc>Tiên Minh</Ten nha may nuoc><Vi tri>Thôn Duyên Lão, xã Tiên Minh, huyện Tiên Lãng</Vi tri><Nam xay dung>2008</Nam xay dung><Dien tich 
+(m2)>974</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="99"><STT>99</STT><Ten nha may nuoc>Đại Thắng 1</Ten nha may nuoc><Vi tri>Thôn Lãng Yên, xã Đại Thắng, huyện Tiên Lãng</Vi tri><Nam xay dung>2006</Nam xay dung><Dien tich 
+(m2)>2300</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="100"><STT>100</STT><Ten nha may nuoc>Nam Hưng</Ten nha may nuoc><Vi tri>Thôn Văn Đoài, xã Nam Hưng, huyện Tiên Lãng</Vi tri><Nam xay dung>2008</Nam xay dung><Dien tich 
+(m2)>1100</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="101"><STT>101</STT><Ten nha may nuoc>Tiên Thắng</Ten nha may nuoc><Vi tri>Thôn Lộc Trù, xã Tiên Thắng, huyện Tiên Lãng</Vi tri><Nam xay dung>2007</Nam xay dung><Dien tich 
+(m2)>600</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="102"><STT>102</STT><Ten nha may nuoc>Lại Xuân II</Ten nha may nuoc><Vi tri>Thôn 10, xã Lại Xuân, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2010</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="103"><STT>103</STT><Ten nha may nuoc> Kỳ Sơn III</Ten nha may nuoc><Vi tri>Thôn 6, xã Kỳ Sơn, huyện Thuỷ Nguyên </Vi tri><Nam xay dung>2011</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="104"><STT>104</STT><Ten nha may nuoc>Hợp Thành II</Ten nha may nuoc><Vi tri>Thôn 12, xã Hợp Thành, huyện Thuỷ Nguyên </Vi tri><Nam xay dung>2006</Nam xay dung><Dien tich 
+(m2)>750</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="105"><STT>105</STT><Ten nha may nuoc>Hợp Thành III</Ten nha may nuoc><Vi tri>Thôn Cao Kênh, xã Hợp Thành, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2010</Nam xay dung><Dien tich 
+(m2)>1440</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="106"><STT>106</STT><Ten nha may nuoc>Cao Nhân I</Ten nha may nuoc><Vi tri>Thôn 8, xã Cao Nhân, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2005</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="107"><STT>107</STT><Ten nha may nuoc>Quảng Thanh II</Ten nha may nuoc><Vi tri>Thôn Đỏ, xã Quảng Thanh, huyện Thuỷ Nguyên </Vi tri><Nam xay dung>2010</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="108"><STT>108</STT><Ten nha may nuoc>Mỹ Đồng II</Ten nha may nuoc><Vi tri>Thôn 5, xã  Mỹ Đồng, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2007</Nam xay dung><Dien tich 
+(m2)>920</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="109"><STT>109</STT><Ten nha may nuoc>Kiền Bái II</Ten nha may nuoc><Vi tri>Xã Kiền Bái, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2009</Nam xay dung><Dien tich 
+(m2)>1130</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="110"><STT>110</STT><Ten nha may nuoc>Lưu Kỳ I</Ten nha may nuoc><Vi tri>Thôn Bạch Đằng, xã Lưu Kỳ, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>1999</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="111"><STT>111</STT><Ten nha may nuoc>Lưu Kỳ II</Ten nha may nuoc><Vi tri>Thôn Hang Lương, xã Lưu Kỳ, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2008</Nam xay dung><Dien tich 
+(m2)>1440</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="112"><STT>112</STT><Ten nha may nuoc>Lưu Kiếm II</Ten nha may nuoc><Vi tri>Thôn Bắc, xã Lưu Kiếm, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2007</Nam xay dung><Dien tich 
+(m2)>1723</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="113"><STT>113</STT><Ten nha may nuoc>Lưu Kiếm III</Ten nha may nuoc><Vi tri>Thôn Chúc Động, xã Lưu Kiếm, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2009</Nam xay dung><Dien tich 
+(m2)>1050</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="114"><STT>114</STT><Ten nha may nuoc>Lưu Kiếm IV</Ten nha may nuoc><Vi tri>Thôn Phúc Nam, xã Lưu Kiếm, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2010</Nam xay dung><Dien tich 
+(m2)>500</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="115"><STT>115</STT><Ten nha may nuoc>Lưu Kiếm V</Ten nha may nuoc><Vi tri>Thôn Cây Quân, xã Lưu Kiếm, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2011</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="116"><STT>116</STT><Ten nha may nuoc>Gia Đức II</Ten nha may nuoc><Vi tri>Thôn 4, xã Gia Đức, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2008</Nam xay dung><Dien tich 
+(m2)>1400</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="117"><STT>117</STT><Ten nha may nuoc>Trung Hà</Ten nha may nuoc><Vi tri>Thôn chùa xã Trung Hà </Vi tri><Nam xay dung>2003, 2013</Nam xay dung><Dien tich 
+(m2)>861</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="118"><STT>118</STT><Ten nha may nuoc>Phục Lễ</Ten nha may nuoc><Vi tri>Thôn Trung, xã Phục Lễ, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2002</Nam xay dung><Dien tich 
+(m2)>1700</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="119"><STT>119</STT><Ten nha may nuoc>Thuỷ Triều I</Ten nha may nuoc><Vi tri>Thôn Đông, xã Thủy Triều, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2004</Nam xay dung><Dien tich 
+(m2)>250</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="120"><STT>120</STT><Ten nha may nuoc>Thuỷ Triều II</Ten nha may nuoc><Vi tri>Xóm 8, xã Thủy Triều, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2006</Nam xay dung><Dien tich 
+(m2)>836</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="121"><STT>121</STT><Ten nha may nuoc>Phả Lễ II</Ten nha may nuoc><Vi tri>Thôn 6, xã Phả Lễ, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2010</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="122"><STT>122</STT><Ten nha may nuoc>Lập Lễ</Ten nha may nuoc><Vi tri>Xã Lập Lễ, huyện Thuỷ Nguyên </Vi tri><Nam xay dung>2001</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="123"><STT>123</STT><Ten nha may nuoc>Dương Quan I</Ten nha may nuoc><Vi tri>Thôn Đầu cầu, xã Dương Quan, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2005</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="124"><STT>124</STT><Ten nha may nuoc>Dương Quan II</Ten nha may nuoc><Vi tri>Thôn Bãi Cát, xã Dương Quan, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2007</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="125"><STT>125</STT><Ten nha may nuoc>Thuỷ Đường</Ten nha may nuoc><Vi tri>Thôn Tây Nam, xã Thủy Đường, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2004</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="126"><STT>126</STT><Ten nha may nuoc>Thuỷ Sơn</Ten nha may nuoc><Vi tri>Thôn 5, xã Thủy Sơn, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2005</Nam xay dung><Dien tich 
+(m2)>2000</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="127"><STT>127</STT><Ten nha may nuoc>Hoàng Động</Ten nha may nuoc><Vi tri>Thôn 4, xã  Hoàng Động, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2006</Nam xay dung><Dien tich 
+(m2)>1400</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="128"><STT>128</STT><Ten nha may nuoc>Lâm Động</Ten nha may nuoc><Vi tri>Thôn Hầu, xã Lâm Động, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2004</Nam xay dung><Dien tich 
+(m2)>2068</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="129"><STT>129</STT><Ten nha may nuoc>Mỹ Đồng I</Ten nha may nuoc><Vi tri>Thôn 6, xã  Mỹ Đồng, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>1998</Nam xay dung><Dien tich 
+(m2)>500</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="130"><STT>130</STT><Ten nha may nuoc>Kiền Bái</Ten nha may nuoc><Vi tri>Thôn 5, xã  Kiền Bái, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2006, 2010</Nam xay dung><Dien tich 
+(m2)>3400</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="131"><STT>131</STT><Ten nha may nuoc>Hoà Bình</Ten nha may nuoc><Vi tri>Thôn Hà Phú, xã Hòa Bình, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2006</Nam xay dung><Dien tich 
+(m2)>1350</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="132"><STT>132</STT><Ten nha may nuoc>Phù Ninh</Ten nha may nuoc><Vi tri>Thôn Phù Lưu, xã Phù Ninh, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2005</Nam xay dung><Dien tich 
+(m2)>2160</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="133"><STT>133</STT><Ten nha may nuoc>Kênh Giang III</Ten nha may nuoc><Vi tri>Xã Kênh Giang, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2012</Nam xay dung><Dien tich 
+(m2)>700</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="134"><STT>134</STT><Ten nha may nuoc>Lại Xuân III</Ten nha may nuoc><Vi tri>Thôn 9, xã Thủy Sơn, huyện Thuỷ Nguyên</Vi tri><Nam xay dung xsi:nil="true" /><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="135"><STT>135</STT><Ten nha may nuoc>Lại Xuân IV</Ten nha may nuoc><Vi tri>Thôn 10, xã Thủy Sơn, huyện Thuỷ Nguyên</Vi tri><Nam xay dung>2010</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="136"><STT>136</STT><Ten nha may nuoc>Lập Lễ II</Ten nha may nuoc><Vi tri>Xã Lập Lễ, huyện Thuỷ Nguyên</Vi tri><Nam xay dung xsi:nil="true" /><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="137"><STT>137</STT><Ten nha may nuoc>Quang Trung II</Ten nha may nuoc><Vi tri>Thôn Câu Đông, xã Quang Trung, huyện An Lão</Vi tri><Nam xay dung>2009</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="138"><STT>138</STT><Ten nha may nuoc>An Thắng I</Ten nha may nuoc><Vi tri>Thôn Bách phương, xã An Thắng, huyện An Lão</Vi tri><Nam xay dung>2005</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="139"><STT>139</STT><Ten nha may nuoc>An Thắng II</Ten nha may nuoc><Vi tri>Thôn Bách phương, xã An Thắng, huyện An Lão</Vi tri><Nam xay dung>2010</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="140"><STT>140</STT><Ten nha may nuoc>Tân Dân I</Ten nha may nuoc><Vi tri>Thôn Đại Hoàng, xã Tân Dân, huyện An Lão</Vi tri><Nam xay dung>2001</Nam xay dung><Dien tich 
+(m2)>1800</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="141"><STT>141</STT><Ten nha may nuoc>Tân Dân II</Ten nha may nuoc><Vi tri>Thôn Lai Thượng, xã Tân Dân, huyện An Lão</Vi tri><Nam xay dung>2006, 2010</Nam xay dung><Dien tich 
+(m2)>720</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="142"><STT>142</STT><Ten nha may nuoc>Tân Dân IV</Ten nha may nuoc><Vi tri>Thôn Việt Khê, xã Tân Dân, huyện An Lão</Vi tri><Nam xay dung>2012</Nam xay dung><Dien tich 
+(m2)>1100</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="143"><STT>143</STT><Ten nha may nuoc>Tân Viên I</Ten nha may nuoc><Vi tri>Thôn Kinh Điền, xã Tân Viên, huyện An Lão</Vi tri><Nam xay dung>2007</Nam xay dung><Dien tich 
+(m2)>1800</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="144"><STT>144</STT><Ten nha may nuoc>Tân Viên II </Ten nha may nuoc><Vi tri>Thôn Ly Câu, xã Tân Viên, huyện An Lão</Vi tri><Nam xay dung>2009, 2012</Nam xay dung><Dien tich 
+(m2)>2500</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="145"><STT>145</STT><Ten nha may nuoc>Thái Sơn</Ten nha may nuoc><Vi tri>Thôn Tư Trung, xã Thái Sơn, huyện An Lão</Vi tri><Nam xay dung>2005, 2010</Nam xay dung><Dien tich 
+(m2)>1100</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="146"><STT>146</STT><Ten nha may nuoc>An Thọ I</Ten nha may nuoc><Vi tri>Thôn Hạnh Thị, xã An Thọ, huyện An Lão</Vi tri><Nam xay dung>2004</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="147"><STT>147</STT><Ten nha may nuoc>An Thọ II</Ten nha may nuoc><Vi tri>Thôn Hạnh Thị, xã An Thọ, huyện An Lão</Vi tri><Nam xay dung>2010</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="148"><STT>148</STT><Ten nha may nuoc>Mỹ Đức</Ten nha may nuoc><Vi tri>Thôn Giao Thượng, xã Mỹ Đức, huyện An Lão</Vi tri><Nam xay dung>2008, 2012</Nam xay dung><Dien tich 
+(m2)>3600</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="149"><STT>149</STT><Ten nha may nuoc>Trường Sơn</Ten nha may nuoc><Vi tri>Thị trấn Trường Sơn, huyện An Lão</Vi tri><Nam xay dung>2004</Nam xay dung><Dien tich 
+(m2)>700</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="150"><STT>150</STT><Ten nha may nuoc>Quốc Tuấn I</Ten nha may nuoc><Vi tri>Thôn Bạch Câu, xã Quốc Tuấn, huyện An Lão</Vi tri><Nam xay dung>2007</Nam xay dung><Dien tich 
+(m2)>1000</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="151"><STT>151</STT><Ten nha may nuoc> Đông Phương</Ten nha may nuoc><Vi tri>Xã Đông Phương, huyện Kiến Thuỵ</Vi tri><Nam xay dung>2008</Nam xay dung><Dien tich 
+(m2)>3000</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="152"><STT>152</STT><Ten nha may nuoc>Thuận Thiên</Ten nha may nuoc><Vi tri>Xã Thuận Thiên, huyện Kiến Thuỵ</Vi tri><Nam xay dung>2003, 2006, 2012</Nam xay dung><Dien tich 
+(m2)>1000</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="153"><STT>153</STT><Ten nha may nuoc>Hữu Bằng I</Ten nha may nuoc><Vi tri>Thôn Kim Đới 3, xã Hữu Bằng, huyện Kiến Thuỵ</Vi tri><Nam xay dung>2004</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="154"><STT>154</STT><Ten nha may nuoc>Hữu Bằng II</Ten nha may nuoc><Vi tri>Thôn Văn Cao, xã Hữu Bằng, huyện Kiến Thuỵ</Vi tri><Nam xay dung>2006</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="155"><STT>155</STT><Ten nha may nuoc>Ngũ Phúc</Ten nha may nuoc><Vi tri>Thôn Xuân Chiếng, xã Ngũ Phúc, huyện Kiến Thuỵ</Vi tri><Nam xay dung>2005, 2009, 2013</Nam xay dung><Dien tich 
+(m2)>1800</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="156"><STT>156</STT><Ten nha may nuoc> Du Lễ</Ten nha may nuoc><Vi tri>Xã Du Lễ, huyện Kiến Thuỵ</Vi tri><Nam xay dung>2008, 2010</Nam xay dung><Dien tich 
+(m2)>1200</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="157"><STT>157</STT><Ten nha may nuoc> Đại Hà</Ten nha may nuoc><Vi tri>Thôn Cao Bộ, xã Đại Hà, huyện Kiến Thuỵ</Vi tri><Nam xay dung>2011, 2013</Nam xay dung><Dien tich 
+(m2)>1450</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="158"><STT>158</STT><Ten nha may nuoc>Ngũ Đoan I</Ten nha may nuoc><Vi tri>Thôn Đồng Dồi, xã Ngũ Đoan, huyện Kiến Thuỵ</Vi tri><Nam xay dung>2004</Nam xay dung><Dien tich 
+(m2)>400</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="159"><STT>159</STT><Ten nha may nuoc>Tân Phong</Ten nha may nuoc><Vi tri>Thôn Lão Phong, xã Tân Phong, huyện Kiến Thuỵ</Vi tri><Nam xay dung>2007, 2010</Nam xay dung><Dien tich 
+(m2)>606</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="160"><STT>160</STT><Ten nha may nuoc> Tân Phong III</Ten nha may nuoc><Vi tri>Thôn Kính trực, xã Tân Phong, huyện Kiến Thuỵ</Vi tri><Nam xay dung>2013</Nam xay dung><Dien tich 
+(m2)>720</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="161"><STT>161</STT><Ten nha may nuoc>Tú Sơn</Ten nha may nuoc><Vi tri>Thôn Lê Xá, xã Tú Sơn, huyện Kiến Thuỵ</Vi tri><Nam xay dung>2005, 2010, 2011</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="162"><STT>162</STT><Ten nha may nuoc>Bắc Sơn</Ten nha may nuoc><Vi tri>Thôn 6, xã Bắc Sơn, huyện An Dương</Vi tri><Nam xay dung>2004</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="163"><STT>163</STT><Ten nha may nuoc>Quốc Tuấn I</Ten nha may nuoc><Vi tri>Thôn Kiều Thượng, Quốc Tuấn, huyện An Dương</Vi tri><Nam xay dung>2006</Nam xay dung><Dien tich 
+(m2)>1000</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="164"><STT>164</STT><Ten nha may nuoc>Quốc Tuấn II+III</Ten nha may nuoc><Vi tri>Thôn Kiều Thượng, Quốc Tuấn, huyện An Dương</Vi tri><Nam xay dung>20082012</Nam xay dung><Dien tich 
+(m2)>2500</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="165"><STT>165</STT><Ten nha may nuoc>Đặng Cương I</Ten nha may nuoc><Vi tri>Thôn Hoà Nhất, Xã Đặng Cương, huyện An Dương</Vi tri><Nam xay dung>2005</Nam xay dung><Dien tich 
+(m2)>500</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="166"><STT>166</STT><Ten nha may nuoc>Đặng Cương II</Ten nha may nuoc><Vi tri>Thôn Chiến Thắng, Đặng Cương, huyện An Dương</Vi tri><Nam xay dung>2007, 2011</Nam xay dung><Dien tich 
+(m2)>1200</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="167"><STT>167</STT><Ten nha may nuoc>Hồng Thái</Ten nha may nuoc><Vi tri>Thôn Đào Yêu, xã Hồng Thái, huyện An Dương</Vi tri><Nam xay dung>2005</Nam xay dung><Dien tich 
+(m2) xsi:nil="true" /><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="168"><STT>168</STT><Ten nha may nuoc>Xuân Đám</Ten nha may nuoc><Vi tri>Xã Xuân Đám, huyện Cát Hải</Vi tri><Nam xay dung>2005</Nam xay dung><Dien tich 
+(m2)>500</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+<row _id="169"><STT>169</STT><Ten nha may nuoc>Phù Long</Ten nha may nuoc><Vi tri>Xã Phù Long, huyện Cát Hải</Vi tri><Nam xay dung>2006</Nam xay dung><Dien tich 
+(m2)>700</Dien tich 
+(m2)><Cong suat 
+(m3/ngay dem) xsi:nil="true" /><Vung phuc vu xsi:nil="true" /><So ho cung cap nuoc sach xsi:nil="true" /><Trinh trang hoat dong>Dừng hoạt động</Trinh trang hoat dong></row>
+</data>

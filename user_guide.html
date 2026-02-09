@@ -1,0 +1,493 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="vi" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="vi" > <!--<![endif]-->
+
+<!-- Mirrored from opendata-documentation.readthedocs.io/vi/latest//user_guide by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Apr 2020 08:11:18 GMT -->
+
+<!-- Mirrored from odp.cantho.gov.vn/user_guide by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 22 Jan 2026 06:30:16 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=2.0">
+  
+  <title>Hướng dẫn người sử dụng &mdash; Tài liệu Open Data documentation 2.0</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+        <!-- <script type="text/javascript" src="/js/readthedocs-doc-embed.js"></script> -->
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Tìm Kiếm" href="search.html" />
+    <link rel="next" title="Hướng dẫn sysadmin" href="sysadmin_guide.html" />
+    <link rel="prev" title="Mục lục" href="content_guide.html" /> 
+
+<!-- RTD Extra Head -->
+
+<!-- 
+Always link to the latest version, as canonical.
+http://docs.readthedocs.org/en/latest/canonical.html
+-->
+<link rel="canonical" href="user_guide.html" />
+
+<!-- <link rel="stylesheet" href="/css/readthedocs-doc-embed.css" type="text/css" /> -->
+
+<script type="text/javascript" src="_static/readthedocs-data.js"></script>
+
+<!-- Add page-specific data, which must exist in the page js, not global -->
+<script type="text/javascript">
+READTHEDOCS_DATA['page'] = "user-guide"
+READTHEDOCS_DATA['source_suffix'] = ".rst"
+</script>
+
+<!-- <script type="text/javascript" src="/js/readthedocs-analytics.js"></script> -->
+
+<!-- end RTD <extrahead> -->
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+	<a href="content_guide.html">
+    <p><h2>Hướng dẫn sử dụng</h2></P>
+    <p><h3>Cổng dữ liệu mở</h3></P>
+  </a>
+
+  
+	
+	  <div class="version">
+		2.0
+	  </div>
+	
+  
+  
+
+
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Hướng dẫn người sử dụng</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#nguoi-dung-to-chuc-va-uy-quyen">Người dùng, tổ chức và ủy quyền</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dang-ky-va-dang-nhap">Đăng ký và đăng nhập</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tinh-nang-cua-nguoi-xuat-ban">Tính năng của người xuất bản</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#tao-mot-bo-du-lieu-moi">Tạo một bộ dữ liệu mới</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#chinh-sua-mot-tap-du-lieu">Chỉnh sửa một tập dữ liệu</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#them-xoa-va-chinh-sua-tai-nguyen">Thêm, xóa và chỉnh sửa tài nguyên</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#xoa-mot-tap-du-lieu">Xóa một tập dữ liệu</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tao-mot-to-chuc">Tạo một tổ chức</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#quan-ly-to-chuc">Quản lý tổ chức</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#tim-kiem-du-lieu">Tìm kiếm dữ liệu</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#tim-kiem-trang-web">Tìm kiếm trang web</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tim-kiem-trong-mot-to-chuc">Tìm kiếm trong một tổ chức</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#kham-pha-bo-du-lieu">Khám phá bộ dữ liệu</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#thong-tin-ca-nhan">Thông tin cá nhân</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#bang-dieu-khien">Trang tổng quan</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#quan-ly-ho-so-ca-nhan">Quản lý hồ sơ cá nhân</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="sysadmin_guide.html">Hướng dẫn sysadmin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api_guide.html">Hướng dẫn API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">Trang chủ</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content_guide.html">Open Data documentation</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content_guide.html">Tài liệu</a> &raquo;</li>
+        
+      <li>Hướng dẫn người sử dụng</li>
+    
+
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="huong-dan-nguoi-su-dung">
+<h1>Hướng dẫn người sử dụng<a class="headerlink" href="#huong-dan-nguoi-su-dung" title="Permalink to this headline">¶</a></h1>
+<p>Hướng dẫn sử dụng này bao gồm sử dụng giao diện web để tổ chức, xuất bản
+và tìm dữ liệu.</p>
+<p>Một số tính năng UI web liên quan đến quản trị trang web chỉ khả dụng cho
+người dùng có phân quyền là sysadmin và đây là tài liệu trong <a class="reference internal" href="sysadmin_guide.html"><span class="doc">Hướng dẫn sysadmin</span></a>.</p>
+<div class="section" id="nguoi-dung-to-chuc-va-uy-quyen">
+<h2>Người dùng, tổ chức và ủy quyền<a class="headerlink" href="#nguoi-dung-to-chuc-va-uy-quyen" title="Permalink to this headline">¶</a></h2>
+<p>Bạn có thể tìm kiếm dữ liệu mà không cần đăng nhập. Bạn có thể đăng ký tài khoản
+thành viên và đăng nhập.</p>
+<p>Mỗi tập dữ liệu được sở hữu bởi một hoặc nhiều tổ chức. Ví dụ: Website được chính
+phủ sử dụng làm cổng thông tin dữ liệu, thì các tổ chức có thể là các cơ quan chính
+chủ khác nhau, mỗi cơ quan công bố dữ liệu. Mỗi tổ chức có thể có quy trình làm việc
+và ủy quyền riêng, cho phép tổ chức quản lý quy trình xuất bản của riêng mình.</p>
+<p>Một quản trị viên của tổ chức có thể thêm người dùng vào tổ chức, với các vai trò khác
+nhau tùy thuộc vào mức độ ủy quyền cần thiết. Là thành viên trong một tổ chức có thể
+tạo một bộ dữ liệu thuộc sở hữu của tổ chức đó. Trong thiết lập mặc định, bộ dữ liệu
+này ban đầu là chế độ riêng tư và chỉ hiển thị cho thành viên khác trong cùng một tổ chức.
+Khi muốn công khai bộ dữ liệu thì yêu cầu một mức ủy quyền cao hơn trong tổ chức để thay đổi chế độ.</p>
+<p>Nếu bộ dữ liệu không thuộc sở hữu của bất kỳ tổ chức nào, các bộ dữ liệu như vậy có thể được chỉnh
+sửa bởi bất kỳ người dùng đã đăng nhập vào.</p>
+</div>
+<div class="section" id="dang-ky-va-dang-nhap">
+<h2>Đăng ký và đăng nhập<a class="headerlink" href="#dang-ky-va-dang-nhap" title="Permalink to this headline">¶</a></h2>
+<p>Để tạo ID người dùng, sử dụng link &quot;Đăng ký&quot;. Web sẽ yêu cầu như sau:</p>
+<ul class="simple">
+<li><em>Tên người dùng</em> -- Các ký tự được sử dụng là chữ cái, số, và ký tự _ .</li>
+<li><em>Tên đầy đủ</em> -- Sẽ được hiển thị trên hồ sơ của bạn.</li>
+<li><em>Thư điện tử</em> -- Sẽ không hiển thị cho người dùng khác.</li>
+<li><em>Mật khẩu</em> -- Nhập cùng một mật khẩu. Mật khẩu ít nhất có 8 ký tự.</li>
+</ul>
+<img alt="_images/dang-ky.png" src="images/dang-ky.png" />
+<p>Nếu có vấn đề với bất kỳ trường nào, chúng tôi sẽ cho bạn biết vấn đề và cho phép bạn sửa nó.
+Khi các trường được điền chính xác, chúng tôi sẽ tạo tài khoản người dùng của bạn và tự động đăng nhập.</p>
+</div>
+<div class="section" id="tinh-nang-cua-nguoi-xuat-ban">
+<h2>Tính năng của người xuất bản<a class="headerlink" href="#tinh-nang-cua-nguoi-xuat-ban" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="tao-mot-bo-du-lieu-moi">
+<span id="adding-a-new-dataset"></span><h3>Tạo một bộ dữ liệu mới<a class="headerlink" href="#tao-mot-bo-du-lieu-moi" title="Permalink to this headline">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Ghi chú</p>
+<p class="last">Bạn phải là thành viên của một tổ chức với vai trò là biên tập viên hoặc quản trị viên của tổ chức
+để thêm và chỉnh sửa các datsets. Xem phần <a class="reference internal" href="#creating-an-organization"><span class="std std-ref">Tạo một tổ chức</span></a> dưới đây.</p>
+</div>
+<p><strong>Bước 1</strong>. Bạn có thể truy cập &quot;Thêm bộ dữ liệu&quot; với hai cách:</p>
+<ol class="loweralpha simple">
+<li>Chọn liên kết &quot;Dữ liệu&quot; ở đầu trang. Từ đây, chọn nút &quot;Thêm bộ dữ liệu&quot;.</li>
+</ol>
+<p>b) Chọn liên kết &quot;Tổ chức&quot; ở đầu trang. Chọn tổ chức sẽ sở hữu tập dữ liệu mới của bạn, chọn nút &quot;Thêm bộ
+dữ liệu&quot;.</p>
+<p><strong>Bước 2</strong>. Để tạo bộ dữ liệu mới bạn cần cung cấp các thông tin cần thiết sau:</p>
+<ul class="simple">
+<li><em>Tiêu đề</em> --  Tiêu đề này sẽ là duy nhất trên toàn web, vì vậy hãy đặt tên tiêu đề ngắn gọn nhưng cụ thể.
+Ví dụ, &quot;mật độ dân số của Việt Nam theo khu vực&quot; tốt hơn so với &quot;Số liệu dân số&quot;.</li>
+<li><em>Mô tả</em> -- Bạn có thể thêm mô tả dài hơn về bộ dữ liệu tại đây, bao gồm thông tin như dữ liệu đến từ đâu
+và bất kỳ thông tin nào mà mọi người sẽ cần biết khi sử dụng dữ liệu.</li>
+<li><em>Thẻ</em> -- (Tags) Ở đây bạn có thể thêm các thẻ sẽ giúp mọi người tìm thấy dữ liệu và liên kết với các dữ
+liệu liên quan khác. Ví dụ: &quot;Kinh tế&quot;, &quot;giáo dục&quot;,...</li>
+<li><em>Giấy phép</em> --  Thông tin giấy phép để mọi người biết cách có thể sử dụng dữ liệu.</li>
+<li><em>Tổ chức</em> - Bạn chỉ được chọn các tổ chức mà bạn là thành viên của tổ chức đó.</li>
+<li><em>Hiển thị</em> --  Có hai chế độ hiển thị &quot;Công khai&quot; và &quot;Riêng tư&quot;. Bộ dữ liệu hiển thị chế độ &quot;Công khai&quot; sẽ được
+các thành viên không thuộc trong tổ chức hoặc người xem không có tài khoản xem bộ dữ liệu này. Ngược lại,
+hiển thị chế độ &quot;Riêng tư&quot; chỉ có các thành viên trong tổ chức và quản trị viên xem được bộ dữ liệu này.</li>
+</ul>
+<img alt="_images/create-new-dataset.png" src="images/create-new-dataset.png" />
+<div class="admonition note">
+<p class="first admonition-title">Ghi chú</p>
+<p class="last">Theo mặc định, trường bắt buộc duy nhất trên trang này là tiêu đề. Tuy nhiên, bạn nên cung cấp đầy đủ thông tin
+để bộ dữ liệu hoàn thiện.</p>
+</div>
+<p><strong>Bước 3</strong>.  Khi bạn đã điền thông tin trên trang này, hãy chọn nút &quot;Tiếp theo: Thêm dữ liệu&quot;.</p>
+<p><strong>Bước 4</strong>. Web sẽ hiển thị màn hình &quot;Thêm dữ liệu&quot;.</p>
+<img alt="_images/create-resource.png" src="images/create-resource.png" />
+<p>Bạn có thể thêm một hoặc nhiều tài nguyên có chứa dữ liệu cho bộ dữ liệu này. Chọn tải một tệp từ máy tính
+hoặc liên kết cho tài nguyên dữ liệu của bạn hoặc tải dữ liệu lên đám mây.</p>
+<p><strong>Bước 5</strong>. Thêm thông tin khác, ở đây sẽ không yêu cầu thông tin này nhưng bạn nên thêm thông tin này:</p>
+<ul class="simple">
+<li><em>Tên</em> -- Tên của tài nguyên này, ví dụ &quot;Giá vàng tháng 01 năm 2011&quot;. Các tài nguyên khác nhau trong bộ
+dữ liệu nên có tên khác nhau.</li>
+<li><em>Mô tả</em> -- Một mô tả ngắn về tài nguyên.</li>
+<li><em>Định dạng</em> -- Định dạng tệp của tài nguyên, ví dụ CSV, XLS, JSON, PDF, v.v.</li>
+</ul>
+<p><strong>Bước 6</strong>. Sau khi hoàn tất các thông tin trên, bạn có thể lưu tài nguyên và tạo thêm một tài nguyên khác bằng
+chọn nút &quot;Lưu &amp; thêm&quot;. Nếu bạn muốn kết thúc quá trình thêm tài nguyên, chọn nút &quot;Hoàn tất&quot;.</p>
+<p>Bạn sẽ có thể tìm thấy tập dữ liệu của mình bằng cách nhập tiêu đề hoặc một số từ có liên quan từ mô tả vào hộp
+tìm kiếm dữ liệu. Để biết thêm thông tin về việc tìm kiếm dữ liệu, hãy xem phần <a class="reference internal" href="#finding-data"><span class="std std-ref">Tìm kiếm dữ liệu</span></a>.</p>
+</div>
+<div class="section" id="chinh-sua-mot-tap-du-lieu">
+<h3>Chỉnh sửa một tập dữ liệu<a class="headerlink" href="#chinh-sua-mot-tap-du-lieu" title="Permalink to this headline">¶</a></h3>
+<p>Bạn có thể chỉnh sửa tập dữ liệu bạn đã tạo hoặc bất kỳ tập dữ liệu nào thuộc sở hữu của một tổ chức mà bạn là thành viên.
+(Nếu một tập dữ liệu không thuộc sở hữu của bất kỳ tổ chức nào, thì bất kỳ người dùng nào cũng có thể chỉnh sửa tập dữ liệu này.)</p>
+<ol class="arabic simple">
+<li>Di chuyển đến trang &quot;Dữ liệu&quot;. Bạn có thể tìm thấy tập dữ liệu bằng cách nhập tiêu đề vào hộp tìm kiếm.</li>
+<li>Chọn nút &quot;Quản lý&quot;.</li>
+<li>Hiển thị màn hình &quot;Quản lý&quot;. Chỉnh sửa trực tuyến. Bạn có thể chỉnh sửa bất kỳ trường nào (Tiêu đề, Mô tả,
+v.v.), thay đổi chế độ hiển thị (Riêng tư/Công khai) và thêm hoặc xóa thẻ hoặc trường tùy chỉnh.
+Để biết chi tiết về các trường này, xem <a class="reference internal" href="#adding-a-new-dataset"><span class="std std-ref">Tạo một bộ dữ liệu mới</span></a>.</li>
+<li>Khi bạn đã hoàn tất, hãy chọn nút &quot;Cập nhật bộ dữ liệu&quot; để lưu các thay đổi.</li>
+</ol>
+<img alt="_images/edit-dataset.png" src="images/edit-dataset.png" />
+</div>
+<div class="section" id="them-xoa-va-chinh-sua-tai-nguyen">
+<h3>Thêm, xóa và chỉnh sửa tài nguyên<a class="headerlink" href="#them-xoa-va-chinh-sua-tai-nguyen" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Chuyển đến trang &quot;Quản lý&quot; của bộ dữ liệu (các bước 1 - 2 ở trên).</li>
+<li>Chọn nút &quot;Nguồn&quot;, có các tùy chọn để chỉnh sửa tài nguyên. Bạn có thể chọn một tài nguyên hiện có
+(để chỉnh sửa hoặc xóa) hoặc chọn &quot;Thêm tài nguyên mới&quot;.</li>
+<li>Bạn có thể chỉnh sửa thông tin về tài nguyên hoặc thay đổi tệp. Để biết chi tiết, hãy xem các
+bước 4-5 của <a class="reference internal" href="#adding-a-new-dataset"><span class="std std-ref">Tạo một bộ dữ liệu mới</span></a> ở trên.</li>
+<li>Khi bạn chỉnh sửa xong, hãy chọn nút &quot;Cập nhật tài nguyên&quot; (hoặc &quot;Thêm&quot;, đối với tạo tài nguyên mới)
+để lưu các thay đổi của bạn. Ngoài ra, để xóa tài nguyên chọn nút &quot;Xóa&quot;.</li>
+</ol>
+</div>
+<div class="section" id="xoa-mot-tap-du-lieu">
+<h3>Xóa một tập dữ liệu<a class="headerlink" href="#xoa-mot-tap-du-lieu" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Chuyển đến trang &quot;Quản lý&quot; của bộ dữ liệu (xem Chỉnh sửa một tập dữ liệu ở trên).</li>
+<li>Chọn nút &quot;Xóa&quot;.</li>
+<li>Hiển thị hộp thoại xác nhận. Để hoàn thành việc xóa bộ dữ liệu, hãy chọn &quot;Xác nhận&quot;.</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Ghi chú</p>
+<p class="last">Với &quot;Xóa&quot; bộ dữ liệu không hoàn toàn bị xóa. Bộ dữ liệu này bị ẩn, do đó, bộ dữ liệu này không hiển thị
+trong tìm kiếm, v.v. Tuy nhiên, bằng cách truy cập trang của bộ dữ liệu bằng URL, vẫn có thể nhìn thấy.
+Để xóa vĩnh viễn bộ dữ liệu, hãy liên hệ quản trị viên.</p>
+</div>
+</div>
+<div class="section" id="tao-mot-to-chuc">
+<span id="creating-an-organization"></span><h3>Tạo một tổ chức<a class="headerlink" href="#tao-mot-to-chuc" title="Permalink to this headline">¶</a></h3>
+<p>Để tạo một tổ chức:</p>
+<ol class="arabic simple">
+<li>Chọn liên kết &quot;Tổ chức&quot; ở đầu trang web.</li>
+<li>Chọn nút &quot;Thêm tổ chức&quot;.</li>
+<li>Hiển thị trang &quot;Thêm tổ chức&quot;.</li>
+<li>Nhập tên của tố chức và những thông tin bổ sung tùy chọn: Mô tả, hình ảnh cho trang chủ của tổ chức.</li>
+<li>Chọn nút &quot;Tạo tổ chức&quot;. Sau tạo thành công, hiển thị trang chủ tổ chức vừa tạo. Ban đầu, tổ chức không có bộ dữ liệu.</li>
+</ol>
+<img alt="_images/tao-mot-to-chuc.png" src="images/tao-mot-to-chuc.png" />
+<div class="admonition note">
+<p class="first admonition-title">Ghi chú</p>
+<p class="last">Trường hợp không được cấp quyền thêm tổ chức, hãy liên hệ với quản trị viên.</p>
+</div>
+</div>
+<div class="section" id="quan-ly-to-chuc">
+<span id="managing-an-organization"></span><h3>Quản lý tổ chức<a class="headerlink" href="#quan-ly-to-chuc" title="Permalink to this headline">¶</a></h3>
+<p>Nếu được ủy quyền vai trò là quản trị viên tổ chức, trang hiển thị tổ chức đó
+sẽ hiển thị nút &quot;Quản lý&quot;. Khi chọn nút &quot;Quản lý&quot; này sẽ hiển thị trang quản trị
+tổ chức, trang này có ba tab:</p>
+<ul class="simple">
+<li><em>Hiệu chỉnh</em> -- Tại đây có thể chỉnh sửa thông tin của tổ chức (tên tổ chức, mô tả và hình ảnh).</li>
+<li><em>Dữ liệu</em> -- Đây là nơi hiển thị tất cả bộ dữ liệu trong quyền sở hữu của tổ chức. Trong đây có các tính năng:
+Có thể chỉnh sửa chế độ hiển thị của bộ dữ liệu, xóa bộ dữ liệu, thêm bộ dữ liệu cho tổ chức và tìm kiếm
+bộ dữ liệu.</li>
+<li><em>Thành viên</em> -- Tại đây có thể thêm, xóa và thay đổi vai trò truy cập cho những người
+dùng khác nhau trong tổ chức. Lưu ý: Khi thêm thành viên, cần phải biết chính xác tên tài khoản người được thêm,
+ngoài ra cũng có thể mời người dùng chưa là thành viên của web bằng cách nhập địa chỉ email người được mời.</li>
+</ul>
+<img alt="_images/quan-ly-to-chuc.png" src="images/quan-ly-to-chuc.png" />
+<p>Theo mặc định, cho phép các thành viên của các tổ chức có ba vai trò:</p>
+<ul class="simple">
+<li><em>Thành viên</em> -- có thể xem bộ dữ liệu riêng tư của tổ chức</li>
+<li><em>Biên tập viên</em> -- có thể chỉnh sửa và xuất bản bộ dữ liệu</li>
+<li><em>Quản trị viên</em> -- có thể thêm, xóa và thay đổi vai trò cho các thành viên tổ chức</li>
+</ul>
+</div>
+</div>
+<div class="section" id="tim-kiem-du-lieu">
+<span id="finding-data"></span><h2>Tìm kiếm dữ liệu<a class="headerlink" href="#tim-kiem-du-lieu" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="tim-kiem-trang-web">
+<h3>Tìm kiếm trang web<a class="headerlink" href="#tim-kiem-trang-web" title="Permalink to this headline">¶</a></h3>
+<p>Để tìm bộ dữ liệu, hãy nhập bất kỳ tổ hợp từ tìm kiếm nào (ví dụ: Y tế, Giao thông vận tải, v.v.)
+vào hộp tìm kiếm trên trang chủ và trên trang dữ liệu. Web sẽ hiển thị trang dữ liệu với các kết quả
+tìm kiếm của bạn.</p>
+<p>Nếu có số lượng lớn kết quả,các bộ lọc có thể rất hữu ích, vì bạn có thể kết hợp các bộ lọc,
+thêm và xóa chúng một cách có chọn lọc, đồng thời sửa đổi và lặp lại tìm kiếm với các bộ lọc hiện có.</p>
+<img alt="_images/tim-kiem-du-lieu.png" src="images/tim-kiem-du-lieu.png" />
+</div>
+<div class="section" id="tim-kiem-trong-mot-to-chuc">
+<h3>Tìm kiếm trong một tổ chức<a class="headerlink" href="#tim-kiem-trong-mot-to-chuc" title="Permalink to this headline">¶</a></h3>
+<p>Nếu bạn muốn tìm kiếm dữ liệu thuộc sở hữu của một tổ chức cụ thể, bạn có thể tìm kiếm các bộ dữ liệu trong
+tổ chức từ trang chủ của tổ chức đó.</p>
+<ol class="arabic simple">
+<li>Chọn liên kết &quot;Tổ chức&quot; ở đầu trang web.</li>
+<li>Chọn tổ chức mà bạn muốn tìm kiếm bộ dữ liệu. Web sẽ hiển thị trang chủ của tổ chức.</li>
+<li>Nhập truy vấn tìm kiếm của bạn vào hộp tìm kiếm trên trang chủ của tổ chức. Kết quả tìm kiếm sẽ
+được trả về như bình thường, nhưng bị giới hạn ở bộ dữ liệu từ tổ chức.</li>
+</ol>
+<img alt="_images/tim-kiem-du-lieu-trong-to-chuc.png" src="images/tim-kiem-du-lieu-trong-to-chuc.png" />
+<p>Nếu bạn quan tâm đến một tổ chức, bạn có thể chọn để được nhận thông báo về các thay đổi đối với tổ chức đó
+(chẳng hạn như bộ dữ liệu mới và sửa đổi bộ dữ liệu) bằng cách sử dụng nút &quot;Theo dõi&quot; trên trang của tổ chức.
+Xem phần <a class="reference internal" href="#managing-your-news-feed"><span class="std std-ref">Trang tổng quan</span></a> dưới đây. Bạn phải có tài khoản người dùng và đăng nhập để sử dụng
+tính năng theo dõi này.</p>
+</div>
+<div class="section" id="kham-pha-bo-du-lieu">
+<h3>Khám phá bộ dữ liệu<a class="headerlink" href="#kham-pha-bo-du-lieu" title="Permalink to this headline">¶</a></h3>
+<p>Khi chọn bộ dữ liệu, web sẽ hiển thị trang của bộ dữ liệu:</p>
+<ul class="simple">
+<li>Tên, mô tả và thông tin khác về bộ dữ liệu.</li>
+<li>Link và mô tả ngắn gọn về từng tài nguyên.</li>
+</ul>
+<img alt="_images/kham-pha-bo-du-lieu.png" src="images/kham-pha-bo-du-lieu.png" />
+<p>Các mô tả tài nguyên liên kết đến một trang dành riêng cho mỗi tài nguyên. Trang tài nguyên này
+bao gồm thông tin về tài nguyên và cho phép tải về. Nhiều loại tài nguyên cũng có thể được xem
+trước trực tiếp trên trang tài nguyên: Spreadsheets .CSV và .XLS (được xem trước trong chế độ xem dạng
+lưới), với chế độ xem bản đồ và đồ thị có sẵn nếu dữ liệu phù hợp, hình ảnh, PDF hoặc HTML.</p>
+<p>Trang dữ liệu cũng có hai tab khác:</p>
+<ul class="simple">
+<li><em>Chuỗi hoạt động</em> -- xem lịch sử các thay đổi gần đây của bộ dữ liệu</li>
+<li><em>Nhóm</em> -- xem các nhóm được liên kết với bộ dữ liệu này</li>
+</ul>
+<p>Ngoài ra có các tính năng:</p>
+<ul class="simple">
+<li><em>Đánh giá</em> -- đánh giá dữ liệu có hữu ích hay ngược lại</li>
+<li><em>Bình luận</em> -- bình luận ý kiến cá nhân về bộ dữ liệu</li>
+<li><em>Theo dõi</em> -- nhận thông báo về các thay đổi đối với bộ dữ liệu.</li>
+</ul>
+<p>Xem phần <a class="reference internal" href="#managing-your-news-feed"><span class="std std-ref">Trang tổng quan</span></a> dưới đây. Bạn phải có tài khoản người dùng và đăng nhập để sử dụng
+các tính năng trên.</p>
+</div>
+</div>
+<div class="section" id="thong-tin-ca-nhan">
+<h2>Thông tin cá nhân<a class="headerlink" href="#thong-tin-ca-nhan" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Ghi chú</p>
+<p class="last">Bạn phải có tài khoản đăng nhập để sử dụng tính năng này.</p>
+</div>
+<div class="section" id="bang-dieu-khien">
+<span id="managing-your-news-feed"></span><h3>Trang tổng quan<a class="headerlink" href="#bang-dieu-khien" title="Permalink to this headline">¶</a></h3>
+<p>Bảng điểu khiển hiển thị 4 tab:</p>
+<ul class="simple">
+<li><em>Tin tức</em> -- Hiển thị nguồn cấp thông tin của bạn. Điều này cho thấy các thay đổi đối với các bộ
+dữ liệu mà bạn theo dõi và mọi bộ dữ liệu đã thay đổi hoặc mới trong các tổ chức mà bạn theo dõi.
+Nếu bạn muốn dừng theo dõi tập dữ liệu (hoặc tổ chức hoặc người dùng), hãy truy cập trang của tập
+dữ liệu (ví dụ: bằng cách chọn một liên kết đến tập tin đó trong 'Tin tức' của bạn) và chọn nút
+&quot;Không theo dõi&quot;.</li>
+<li><em>Bộ dữ liệu của tôi</em> -- Hiển thị tất cả bộ dữ liệu của bạn.</li>
+<li><em>Tổ chức của tôi</em> -- Hiển thị tất cả tổ chức mà bạn là thành viên.</li>
+<li><em>Nhóm của tôi</em> -- Hiển thị tất cả nhóm mà bạn là thành viên.</li>
+</ul>
+<img alt="_images/bang-dieu-khien.png" src="images/bang-dieu-khien.png" />
+</div>
+<div class="section" id="quan-ly-ho-so-ca-nhan">
+<h3>Quản lý hồ sơ cá nhân<a class="headerlink" href="#quan-ly-ho-so-ca-nhan" title="Permalink to this headline">¶</a></h3>
+<p>Chọn nút &quot;Cấu hình hồ sơ&quot; trong Trang tổng quan.
+Bạn có thể thay đổi thông tin cá nhân (trừ &quot;Tên tài khoản&quot;) bao gồm: Tên đầy đủ,
+Email, ảnh đại diện, thông tin (giới thiệu về cá nhân). Thực hiện các thay đổi
+và sau đó chọn nút &quot;Cập nhật hồ sơ&quot;.</p>
+<img alt="_images/chinh-sua-thong-tin-ca-nhan.png" src="images/chinh-sua-thong-tin-ca-nhan.png" />
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation"
+         aria-label="footer navigation">
+      
+        <a href="sysadmin_guide.html" class="btn btn-neutral float-right"
+           title="Hướng dẫn sysadmin"/>
+           Next <span class="icon fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="content_guide.html" class="btn btn-neutral"
+           title="Mục lục">
+           <span class="icon fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr></hr>
+
+  
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+   
+
+</body>
+
+<!-- Mirrored from opendata-documentation.readthedocs.io/vi/latest//user_guide by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Apr 2020 08:11:18 GMT -->
+
+<!-- Mirrored from odp.cantho.gov.vn/user_guide by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 22 Jan 2026 06:30:19 GMT -->
+</html>

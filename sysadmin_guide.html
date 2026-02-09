@@ -1,0 +1,311 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="vi" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="vi" > <!--<![endif]-->
+
+<!-- Mirrored from opendata-documentation.readthedocs.io/vi/latest/sysadmin-guide.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Apr 2020 08:11:18 GMT -->
+
+<!-- Mirrored from odp.cantho.gov.vn/sysadmin_guide by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 22 Jan 2026 06:30:20 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=2.0">
+  
+  <title>Hướng dẫn sysadmin &mdash; Tài liệu Open Data documentation 2.0</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+        <!-- <script type="text/javascript" src="/js/readthedocs-doc-embed.js"></script> -->
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Tìm Kiếm" href="search.html" />
+    <link rel="next" title="Hướng dẫn API" href="api_guide.html" />
+    <link rel="prev" title="Hướng dẫn người sử dụng" href="user_guide.html" /> 
+
+<!-- RTD Extra Head -->
+
+<!-- 
+Always link to the latest version, as canonical.
+http://docs.readthedocs.org/en/latest/canonical.html
+-->
+<link rel="canonical" href="sysadmin-guide.html" />
+
+<!-- <link rel="stylesheet" href="/css/readthedocs-doc-embed.css" type="text/css" /> -->
+
+<script type="text/javascript" src="_static/readthedocs-data.js"></script>
+
+<!-- Add page-specific data, which must exist in the page js, not global -->
+<script type="text/javascript">
+READTHEDOCS_DATA['page'] = "sysadmin-guide"
+READTHEDOCS_DATA['source_suffix'] = ".rst"
+</script>
+
+<!-- <script type="text/javascript" src="/js/readthedocs-analytics.js"></script> -->
+
+<!-- end RTD <extrahead> -->
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+		<a href="content_guide.html">
+    <p><h2>Hướng dẫn sử dụng</h2></P>
+    <p><h3>Cổng dữ liệu mở</h3></P>
+  </a>
+
+  
+	
+	  <div class="version">
+		2.0
+	  </div>
+	
+  
+  
+
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="user_guide.html">Hướng dẫn người sử dụng</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Hướng dẫn sysadmin</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#tuy-chinh-giao-dien">Tùy chỉnh giao diện</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#quan-ly-to-chuc-va-bo-du-lieu">Quản lý tổ chức và bộ dữ liệu</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#di-chuyen-mot-bo-du-lieu-giua-cac-to-chuc">Di chuyển một bộ dữ liệu giữa các tổ chức</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#xoa-vinh-vien-bo-du-lieu">Xóa vĩnh viễn bộ dữ liệu</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#quan-ly-nguoi-dung">Quản lý người dùng</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api_guide.html">Hướng dẫn API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">Trang chủ</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content_guide.html">Open Data documentation</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content_guide.html">Tài liệu</a> &raquo;</li>
+        
+      <li>Hướng dẫn sysadmin</li>
+
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="huong-dan-sysadmin">
+<h1>Hướng dẫn sysadmin<a class="headerlink" href="#huong-dan-sysadmin" title="Permalink to this headline">¶</a></h1>
+<p>Hướng dẫn này bao gồm các tính quản trị: quản lý người dùng và bộ dữ liệu.
+Người dùng sysadmin có thể truy cập và chỉnh sửa bất kỳ tổ chức nào, xem và
+thay đổi chi tiết người dùng và xóa vĩnh viễn bộ dữ liệu.</p>
+<div class="section" id="tuy-chinh-giao-dien">
+<h2>Tùy chỉnh giao diện<a class="headerlink" href="#tuy-chinh-giao-dien" title="Permalink to this headline">¶</a></h2>
+<p>Một số tùy chỉnh đơn giản để tùy chỉnh giao diện của trang web của bạn có
+sẵn thông qua giao diện người dùng, tại <code class="docutils literal notranslate"><span class="pre">https://odp.cantho.gov.vn/ckan-admin/config/</span></code>.</p>
+<img alt="_images/Tuy-chinh-giao-dien-sysadmin.png" src="images/Tuy-chinh-giao-dien-sysadmin.png" />
+<p>Tại đây bạn có thể chỉnh sửa như sau:</p>
+<dl class="docutils">
+<dt>Tiêu đề trang</dt>
+<dd>Tiêu đề này được sử dụng trong HTML &lt;title&gt; của trang web. Ví dụ: Nếu tiêu
+đề trang web của bạn là 'Dữ liệu mở', trang chủ sẽ hiển thị 'Chào đón - Dữ liệu mở'.</dd>
+<dt>Kiểu trang trí</dt>
+<dd>Chọn một trong năm bảng màu cho chủ đề mặc định.</dd>
+<dt>Đặt thẻ đánh dấu dòng</dt>
+<dd>Điều này không được sử dụng trong các chủ đề mặc định hiện tại của web, nhưng có
+thể được sử dụng trong tương lai.</dd>
+<dt>Logo trang web</dt>
+<dd>Một URL cho logo trang web, được sử dụng ở đầu mỗi trang của web.</dd>
+<dt>Thông tin</dt>
+<dd>Văn bản xuất hiện trên trang &quot;Thông tin&quot;, <code class="docutils literal notranslate"><span class="pre">https://odp.cantho.gov.vn/about</span></code>.
+Bạn có thể sử dụng <a class="reference external" href="http://daringfireball.net/projects/markdown/basics">Markdown</a> tại đây. Nếu nó bị bỏ trống, một văn bản tiêu
+chuẩn mô tả web sẽ xuất hiện.</dd>
+</dl>
+<dl class="docutils">
+<dt>Đoạn văn bản giới thiệu</dt>
+<dd>Văn bản này xuất hiện trên trang chủ của trang web của bạn.</dd>
+</dl>
+</div>
+<div class="section" id="quan-ly-to-chuc-va-bo-du-lieu">
+<h2>Quản lý tổ chức và bộ dữ liệu<a class="headerlink" href="#quan-ly-to-chuc-va-bo-du-lieu" title="Permalink to this headline">¶</a></h2>
+<p>Sysadmin có toàn quyền truy cập vào tài khoản người dùng, tổ chức và bộ dữ liệu.
+Ví dụ: bạn có quyền truy cập vào mọi tổ chức như thể bạn là thành viên của tổ chức đó.</p>
+<p>Ví dụ: để thêm hoặc xóa người dùng vào một tổ chức, thay đổi vai trò của người dùng
+trong tổ chức, xóa tổ chức hoặc chỉnh sửa mô tả của tổ chức đó, v.v., hãy truy cập
+trang chủ của tổ chức.Bạn sẽ thấy nút &quot;Quản lý&quot; trên web như thể bạn là thành viên
+của tổ chức. Bạn có thể sử dụng điều này để thực hiện tất cả các chức năng quản trị tổ chức.</p>
+<p>Tương tự, để chỉnh sửa, cập nhật hoặc xóa tập dữ liệu, hãy truy cập trang tập dữ liệu và sử
+dụng nút 'Hiệu chỉnh'. Là người dùng quản trị, bạn có thể thấy tất cả các bộ dữ liệu bao gồm
+cả những bộ trong chế độ riêng tư cho một tổ chức.</p>
+<div class="section" id="di-chuyen-mot-bo-du-lieu-giua-cac-to-chuc">
+<h3>Di chuyển một bộ dữ liệu giữa các tổ chức<a class="headerlink" href="#di-chuyen-mot-bo-du-lieu-giua-cac-to-chuc" title="Permalink to this headline">¶</a></h3>
+<p>Để di chuyển tập dữ liệu giữa các tổ chức, hãy truy cập trang dữ liệu hiệu chỉnh. Chọn mục
+thích hợp từ danh sách thả xuống của 'Tổ chức', và nhấn vào 'Cập nhật bộ dữ liệu'.</p>
+<img alt="_images/move-dataset.png" src="images/move-dataset.png" />
+</div>
+<div class="section" id="xoa-vinh-vien-bo-du-lieu">
+<h3>Xóa vĩnh viễn bộ dữ liệu<a class="headerlink" href="#xoa-vinh-vien-bo-du-lieu" title="Permalink to this headline">¶</a></h3>
+<p>Một bộ dữ liệu đã bị xóa không bị xóa vĩnh viễn khỏi web; nó chỉ đơn giản được đánh dấu là
+'đã xóa' và sẽ không còn hiển thị trong tìm kiếm, v.v. Không thể sử dụng lại bộ dữ liệu URL
+cho bộ dữ liệu mới.</p>
+<p>Để xóa vĩnh viễn một bộ dữ liệu:</p>
+<ul class="simple">
+<li>Điều hướng đến tập dữ liệu 'Hiệu chỉnh' và 'Xóa' tập dữ liệu.</li>
+<li>Truy cập <code class="docutils literal notranslate"><span class="pre">https://odp.cantho.gov.vn/ckan-admin/trash/</span></code>.</li>
+</ul>
+<p>Trang này hiển thị tất cả các bộ dữ liệu đã xóa và cho phép bạn xóa chúng vĩnh viễn.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Cảnh báo</p>
+<p class="last">Hành động này không thể khôi phục.</p>
+</div>
+</div>
+</div>
+<div class="section" id="quan-ly-nguoi-dung">
+<h2>Quản lý người dùng<a class="headerlink" href="#quan-ly-nguoi-dung" title="Permalink to this headline">¶</a></h2>
+<p>Để tìm hồ sơ người dùng, đi đến <code class="docutils literal notranslate"><span class="pre">https://odp.cantho.gov.vn/user/</span></code>. Bạn có thể tìm kiếm người dùng trong hộp
+tìm kiếm được cung cấp. Bạn có thể tìm kiếm theo bất kỳ phần nào trong hồ sơ người dùng, bao gồm cả
+địa chỉ email của người dùng.</p>
+<p>Để chỉnh sửa thông tin người dùng:</p>
+<ul class="simple">
+<li>Chọn tên người dùng muốn chỉnh sửa.</li>
+<li>Trên hồ sơ người dùng, bạn chọn nút &quot;Quản lý&quot;.</li>
+<li>Hiển thị trang cài đặt người dùng. Quản trị viên có thể xóa người dùng hoặc thay đổi bất kỳ cài đặt nào,
+bao gồm họ và tên, thư điện tử, thông tin và mật khẩu.</li>
+</dl>
+</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Ghi chú</p>
+<p class="last">Quản trị viên không thể thay đổi tên tài khoản.</p>
+</div>
+<img alt="_images/quan-li-nguoi-dung.png" src="images/quan-li-nguoi-dung.png" />
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation"
+         aria-label="footer navigation">
+      
+        <a href="api_guide.html" class="btn btn-neutral float-right"
+           title="Hướng dẫn API"/>
+           Next <span class="icon fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="user_guide.html" class="btn btn-neutral"
+           title="Hướng dẫn người sử dụng">
+           <span class="icon fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr></hr>
+
+  
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+   
+
+</body>
+
+<!-- Mirrored from opendata-documentation.readthedocs.io/vi/latest/sysadmin-guide.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Apr 2020 08:11:18 GMT -->
+
+<!-- Mirrored from odp.cantho.gov.vn/sysadmin_guide by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 22 Jan 2026 06:30:21 GMT -->
+</html>

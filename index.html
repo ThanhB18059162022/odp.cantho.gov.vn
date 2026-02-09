@@ -1,0 +1,741 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="csrf_field_name" content="_csrf_token" />
+    <meta
+      name="_csrf_token"
+      content="ImVlOTJlYjhmOWYzMTJjNGM5YzM4YjRiMGU5MDA1MjQ4ZTVhYjRjZjYi.aXHC0Q.0iJReKkgPf8yHI0DzXl3iEv4jg4"
+    />
+    <meta name="generator" content="ckan 2.10.4" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ - Cổng dữ liệu mở Thành phố Cần Thơ</title>
+
+    <link rel="shortcut icon" href="base/images/hpg_favicon.ico" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="webassets/base/1c87a999_main.css" rel="stylesheet" />
+    <link
+      href="webassets/ckanext-harvest/c95a0af2_harvest_css.css"
+      rel="stylesheet"
+    />
+    <link
+      href="webassets/ckanext-activity/dbd0d4f3_activity.css"
+      rel="stylesheet"
+    />
+    <link
+      href="webassets/ckanext-vnpt_theme/94d10fe8-vnpt_theme.css"
+      rel="stylesheet"
+    />
+
+    <link href="webassets/vendor/f3b8236b_select2.css" rel="stylesheet" />
+    <link href="webassets/vendor/d05bf0e7_fontawesome.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="webassets/ckanext-vnpt_theme/custom-hero.css"
+    />
+    <!-- Chart.js + DataLabels -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0"></script>
+
+    <style>
+      :root {
+        --page-bg: #ffffff;
+        --title: #0b6aa8;
+        --grid: rgba(0, 0, 0, 0.1);
+        --axis: rgba(0, 0, 0, 0.35);
+        --text: rgba(0, 0, 0, 0.78);
+        --muted: rgba(0, 0, 0, 0.55);
+        --card-border: rgba(0, 0, 0, 0.06);
+        --shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family:
+          system-ui,
+          -apple-system,
+          Segoe UI,
+          Roboto,
+          Arial,
+          sans-serif;
+        background: var(--page-bg);
+        color: var(--text);
+      }
+      .wrap {
+        max-width: 980px;
+        margin: 18px auto 34px;
+        padding: 0 14px;
+        display: grid;
+        gap: 22px;
+      }
+
+      /* very light framing like the screenshots */
+      .panel {
+        border: 1px solid var(--card-border);
+        box-shadow: var(--shadow);
+        border-radius: 6px;
+        padding: 12px 14px 8px;
+        background: #fff;
+      }
+      .panel h2 {
+        margin: 0 0 10px;
+        font-size: 22px;
+        color: var(--title);
+        font-weight: 800;
+        letter-spacing: 0.2px;
+      }
+
+      .chartBox {
+        position: relative;
+        height: 320px;
+      }
+      .chartBox.tall {
+        height: 340px;
+      }
+
+      /* mimic the roomy white plot area */
+      canvas {
+        background: #fff;
+      }
+    </style>
+  </head>
+
+  <body
+    class="homepage modern-theme"
+    data-site-root="http://localhost:8000"
+    data-locale-root="index.html"
+  >
+    <div class="visually-hidden-focusable">
+      <a href="#content">Chuyển đến nội dung chính</a>
+    </div>
+
+    <header class="main-header">
+      <div class="container header-container">
+        <a class="logo" href="index.html">
+          <img
+            src="uploads/admin/2024-10-21-034610.460401Picture3.png"
+            alt="Cổng dữ liệu mở"
+          />
+          <div class="logo-text">
+            <span>CỔNG DỮ LIỆU</span>
+            <strong>Thành phố Cần Thơ</strong>
+          </div>
+        </a>
+
+        <nav class="main-nav">
+          <ul class="nav-links" id="navLinks">
+            <li><a href="dataset/index.html">Dữ liệu</a></li>
+            <li><a href="organization/index.html">Tổ chức</a></li>
+            <li><a href="group/index.html">Chủ đề</a></li>
+            <li><a href="blog.html">Tin tức</a></li>
+            <li><a href="dataset/index.html">Yêu cầu dữ liệu</a></li>
+            <li class="btn-cta"><a href="user/login.html">Đăng nhập</a></li>
+            <li class="btn-ctb"><a href="user/register.html">Đăng ký</a></li>
+          </ul>
+          <button class="mobile-menu-btn" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero-section">
+      <div class="hero-bg-shape shape-1"></div>
+      <div class="hero-bg-shape shape-2"></div>
+
+      <div class="container hero-content">
+        <h1 class="hero-title">
+          CỔNG DỮ LIỆU <br />
+          <span class="highlight">THÀNH PHỐ CẦN THƠ</span>
+        </h1>
+        <p class="subtitle"></p>
+
+        <form class="hero-search" method="get" action="dataset/index.html">
+          <div class="input-group">
+            <i class="fa fa-search icon"></i>
+            <input
+              type="text"
+              name="q"
+              placeholder="Tìm kiếm dữ liệu: giáo dục, y tế, môi trường…"
+            />
+            <button type="submit">Tìm kiếm</button>
+          </div>
+        </form>
+
+        <div
+          id="groups"
+          class="sf-topic-grid glass-grid"
+          style="margin-top: 50px"
+        >
+          <a href="group/giao-duc.html" class="sf-topic-card">
+            <div class="icon-wrapper"><i class="fa fa-graduation-cap"></i></div>
+            <span>Giáo dục</span>
+          </a>
+          <a href="group/y-te.html" class="sf-topic-card">
+            <div class="icon-wrapper"><i class="fa fa-heartbeat"></i></div>
+            <span>Y tế</span>
+          </a>
+          <a href="group/khoa-hoc-cong-nghe.html" class="sf-topic-card">
+            <div class="icon-wrapper"><i class="fa fa-flask"></i></div>
+            <span>Khoa học - Công nghệ</span>
+          </a>
+          <a href="group/cong-thuong.html" class="sf-topic-card">
+            <div class="icon-wrapper"><i class="fa fa-industry"></i></div>
+            <span>Công Thương</span>
+          </a>
+          <a href="group/tai-chinh.html" class="sf-topic-card">
+            <div class="icon-wrapper"><i class="fa fa-line-chart"></i></div>
+            <span>Tài chính</span>
+          </a>
+          <a href="group/van-hoa-du-lich.html" class="sf-topic-card">
+            <div class="icon-wrapper"><i class="fa fa-camera"></i></div>
+            <span>Văn hóa, TT & Du lịch</span>
+          </a>
+          <a href="group/xay-dung.html" class="sf-topic-card">
+            <div class="icon-wrapper"><i class="fa fa-building"></i></div>
+            <span>Xây dựng</span>
+          </a>
+          <a href="group/lao-dong-viec-lam.html" class="sf-topic-card">
+            <div class="icon-wrapper"><i class="fa fa-briefcase"></i></div>
+            <span>Lao động</span>
+          </a>
+          <a href="group/nong-nghiep-moi-truong.html" class="sf-topic-card">
+            <div class="icon-wrapper"><i class="fa fa-leaf"></i></div>
+            <span>Nông nghiệp & Môi trường</span>
+          </a>
+          <a href="group/ton-giao.html" class="sf-topic-card">
+            <div class="icon-wrapper"><i class="fa fa-university"></i></div>
+            <span>Tôn giáo</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="homepage layout-1">
+      <div id="content" class="container">
+        <div class="flash-messages"></div>
+      </div>
+
+      <div id="stats" class="section stats-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-lg-7">
+              <div class="stats-box-left">
+                <div class="box-header">
+                  <h3>
+                    <i class="fa fa-fire"></i> Bộ dữ liệu được quan tâm nhất
+                  </h3>
+                  <a href="dataset/index.html" class="view-more">Xem tất cả</a>
+                </div>
+                <div class="dataset-list">
+                  <a href="#" class="ds-item">
+                    <div class="ds-icon"><i class="fa fa-file-text-o"></i></div>
+                    <div class="ds-content">
+                      <h4>Dữ liệu giáo dục mầm non năm 2024</h4>
+                      <span class="ds-org">Sở Giáo dục và Đào tạo</span>
+                    </div>
+                    <div class="ds-meta">
+                      <span class="badge-view"
+                        ><i class="fa fa-eye"></i> 1.5k</span
+                      >
+                      <span class="badge-download"
+                        ><i class="fa fa-download"></i> 600</span
+                      >
+                    </div>
+                  </a>
+                  <a href="#" class="ds-item">
+                    <div class="ds-icon"><i class="fa fa-hospital-o"></i></div>
+                    <div class="ds-content">
+                      <h4>Danh sách các cơ sở khám chữa bệnh BHYT</h4>
+                      <span class="ds-org">Sở Y tế</span>
+                    </div>
+                    <div class="ds-meta">
+                      <span class="badge-view"
+                        ><i class="fa fa-eye"></i> 1.2k</span
+                      >
+                      <span class="badge-download"
+                        ><i class="fa fa-download"></i> 450</span
+                      >
+                    </div>
+                  </a>
+                  <a href="#" class="ds-item">
+                    <div class="ds-icon"><i class="fa fa-map-marker"></i></div>
+                    <div class="ds-content">
+                      <h4>Bản đồ quy hoạch sử dụng đất quận Ninh Kiều</h4>
+                      <span class="ds-org">Sở Tài nguyên và Môi trường</span>
+                    </div>
+                    <div class="ds-meta">
+                      <span class="badge-view"
+                        ><i class="fa fa-eye"></i> 980</span
+                      >
+                      <span class="badge-download"
+                        ><i class="fa fa-download"></i> 320</span
+                      >
+                    </div>
+                  </a>
+                  <a href="#" class="ds-item">
+                    <div class="ds-icon"><i class="fa fa-building"></i></div>
+                    <div class="ds-content">
+                      <h4>Danh sách doanh nghiệp mới thành lập quý I/2024</h4>
+                      <span class="ds-org">Sở Kế hoạch và Đầu tư</span>
+                    </div>
+                    <div class="ds-meta">
+                      <span class="badge-view"
+                        ><i class="fa fa-eye"></i> 850</span
+                      >
+                      <span class="badge-download"
+                        ><i class="fa fa-download"></i> 210</span
+                      >
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-12 col-lg-5">
+              <div class="stats-box-right">
+                <h3 class="box-title">Thống kê hệ thống</h3>
+                <div class="stats-grid-wrapper">
+                  <a href="dataset/index.html" class="stat-card">
+                    <div class="stat-icon-box blue">
+                      <i class="fa fa-database"></i>
+                    </div>
+                    <div class="stat-info">
+                      <span class="stat-number">37</span>
+                      <span class="stat-label">Bộ dữ liệu</span>
+                    </div>
+                  </a>
+
+                  <a href="organization/index.html" class="stat-card">
+                    <div class="stat-icon-box green">
+                      <i class="fa fa-building"></i>
+                    </div>
+                    <div class="stat-info">
+                      <span class="stat-number">10</span>
+                      <span class="stat-label">Tổ chức</span>
+                    </div>
+                  </a>
+
+                  <a href="group/index.html" class="stat-card">
+                    <div class="stat-icon-box orange">
+                      <i class="fa fa-users"></i>
+                    </div>
+                    <div class="stat-info">
+                      <span class="stat-number">10</span>
+                      <span class="stat-label">Chủ đề</span>
+                    </div>
+                  </a>
+
+                  <a href="#" class="stat-card">
+                    <div class="stat-icon-box purple">
+                      <i class="fa fa-globe"></i>
+                    </div>
+                    <div class="stat-info">
+                      <span class="stat-number">15K+</span>
+                      <span class="stat-label">Lượt truy cập</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="graph"
+        class="module-graph section"
+        style="background: #fff; padding: 40px 0"
+      >
+        <div class="container" data-module="module_graph">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <div
+                class="panel panel-default"
+                style="border: none; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05)"
+              >
+                <div
+                  class="panel-heading"
+                  style="background: #f0f4f8; font-weight: bold; color: #0b2e4e"
+                >
+                  Bộ dữ liệu theo tổ chức
+                </div>
+                <div class="panel-body">
+                  <!-- <div class="embed-responsive-custom embed-responsive-4by3-custom">
+                                    <canvas id="chartOrg" width="546" height="300"></canvas>
+                                </div> -->
+                  <div class="chartBox">
+                    <canvas id="pieOrg"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <div
+                class="panel panel-default"
+                style="border: none; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05)"
+              >
+                <div
+                  class="panel-heading"
+                  style="background: #f0f4f8; font-weight: bold; color: #0b2e4e"
+                >
+                  Bộ dữ liệu theo nhóm
+                </div>
+                <div class="panel-body">
+                  <!-- <div class="embed-responsive-custom embed-responsive-4by3-custom">
+                                    <canvas id="chartGroup"></canvas>
+                                </div> -->
+                  <div class="chartBox tall">
+                    <canvas id="barGroup"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a
+      class="btn"
+      onclick="ckan.topFunction()"
+      id="scrollTopBtn"
+      title="Lên đầu trang"
+      ><i class="fa fa-angle-up"></i
+    ></a>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-sm-12 footer-col">
+            <div class="footer-brand">
+              <img
+                src="uploads/admin/2024-10-21-034610.460401Picture3.png"
+                alt="Logo Cần Thơ"
+                class="footer-logo"
+              />
+              <div class="brand-info">
+                <h4 class="footer-title">
+                  CỔNG DỮ LIỆU <br />
+                  THÀNH PHỐ CẦN THƠ
+                </h4>
+                <p class="footer-desc">
+                  Cung cấp dữ liệu mở minh bạch, tin cậy, phục vụ người dân và
+                  doanh nghiệp, thúc đẩy đổi mới sáng tạo và chuyển đổi số.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 footer-col">
+            <h5 class="footer-heading">Liên hệ</h5>
+            <ul class="contact-list">
+              <li>
+                <i class="fa fa-map-marker"></i>
+                <span>Số 02 Lý Thường Kiệt, P. Ninh Kiều, TP. Cần Thơ</span>
+              </li>
+              <li>
+                <i class="fa fa-phone"></i>
+                <span>0292.3820674</span>
+              </li>
+              <li>
+                <i class="fa fa-fax"></i>
+                <span>0292.3821471</span>
+              </li>
+              <li>
+                <i class="fa fa-envelope"></i>
+                <span>sokhcn@cantho.gov.vn</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 col-sm-6 footer-col">
+            <h5 class="footer-heading">Truy cập nhanh</h5>
+            <ul class="footer-links">
+              <li>
+                <a href="about.html"
+                  ><i class="fa fa-angle-right"></i> Giới thiệu</a
+                >
+              </li>
+              <li>
+                <a href="guide.html"
+                  ><i class="fa fa-angle-right"></i> Hướng dẫn sử dụng</a
+                >
+              </li>
+              <li>
+                <a href="pages/chinh_sach_bao_mat.html"
+                  ><i class="fa fa-angle-right"></i> Chính sách bảo mật</a
+                >
+              </li>
+              <li>
+                <a href="pages/dieu_khoan_su_dung.html"
+                  ><i class="fa fa-angle-right"></i> Điều khoản sử dụng</a
+                >
+              </li>
+              <li>
+                <a href="contact-us.html"
+                  ><i class="fa fa-angle-right"></i> Góp ý - Liên hệ</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright-bar">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-left">
+              &copy; 2026 Sở Khoa học và Công nghệ TP. Cần Thơ
+            </div>
+            <div class="col-md-6 text-right version-text">Phiên bản 2.0.1</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      Chart.register(ChartDataLabels);
+
+      const css = getComputedStyle(document.documentElement);
+      const gridColor = css.getPropertyValue("--grid").trim();
+      const axisColor = css.getPropertyValue("--axis").trim();
+      const textColor = css.getPropertyValue("--text").trim();
+      const mutedColor = css.getPropertyValue("--muted").trim();
+
+      // Palette similar to the screenshot (bright, distinct)
+      const palette = [
+        "#00a7c4", // cong-thuong
+        "#3b82f6", // giao-duc
+        "#c2185b", // khoa-hoc-va-cong-nghe
+        "#f97316", // lao-dong-viec-lam
+        "#6aa84f", // nong-nghiep-va-moi-truong
+        "#ffa500", // tai-chinh
+        "#ffe066", // van-hoa-va-du-lich
+        "#7ea6d8", // xay-dung
+        "#a97155", // y-te
+      ];
+
+      // -------- PIE (org) --------
+      // Labels as in screenshot legend
+      const orgLabels = [
+        "cong-thuong",
+        "giao-duc",
+        "khoa-hoc-va-cong-nghe",
+        "lao-dong-viec-lam",
+        "nong-nghiep-va-moi-truong",
+        "tai-chinh",
+        "van-hoa-va-du-lich",
+        "xay-dung",
+        "y-te",
+      ];
+
+      // Example values (tune freely). Keep "xay-dung" largest like screenshot.
+      const orgValues = [57, 2, 60, 15, 30, 55, 12, 175, 1];
+      const orgTotal = orgValues.reduce((a, b) => a + b, 0);
+
+      new Chart(document.getElementById("pieOrg"), {
+        type: "pie",
+        data: {
+          labels: orgLabels,
+          datasets: [
+            {
+              data: orgValues,
+              backgroundColor: palette,
+              borderWidth: 1,
+              borderColor: "rgba(255,255,255,.9)",
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          layout: { padding: { top: 8, bottom: 8 } },
+          plugins: {
+            legend: {
+              position: "top",
+              align: "center",
+              labels: {
+                color: textColor,
+                usePointStyle: false,
+                boxWidth: 38,
+                boxHeight: 10,
+                padding: 14,
+              },
+            },
+            tooltip: {
+              callbacks: {
+                // mimic: "<label>" then "Organization: N"
+                title: (items) => items?.[0]?.label ?? "",
+                label: (ctx) =>
+                  `Organization: ${ctx.raw.toLocaleString("en-US")}`,
+              },
+            },
+            datalabels: {
+              color: "rgba(0,0,0,.75)",
+              font: { weight: "700", size: 11 },
+              // show only meaningful slices to avoid clutter (still labels are "kept")
+              display: (ctx) => {
+                const v = ctx.dataset.data[ctx.dataIndex];
+                return v / orgTotal >= 0.03; // >= 3%
+              },
+              formatter: (value) => {
+                const pct = ((value / orgTotal) * 100).toFixed(2);
+                return `${value.toLocaleString("en-US")} (${pct}%)`;
+              },
+            },
+          },
+        },
+      });
+
+      // -------- BAR (group) --------
+      const groupLabels = orgLabels; // same categories
+      const groupValues = orgValues; // reuse to match screenshot shape
+
+      new Chart(document.getElementById("barGroup"), {
+        type: "bar",
+        data: {
+          labels: groupLabels,
+          datasets: [
+            {
+              data: groupValues,
+              backgroundColor: palette,
+              borderWidth: 0,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          layout: { padding: { top: 6, right: 8, left: 8, bottom: 0 } },
+          scales: {
+            x: {
+              ticks: {
+                color: axisColor,
+                maxRotation: 30,
+                minRotation: 30,
+              },
+              grid: { color: gridColor },
+              border: { color: gridColor },
+            },
+            y: {
+              beginAtZero: true,
+              ticks: { color: axisColor },
+              grid: { color: gridColor },
+              border: { color: gridColor },
+            },
+          },
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                title: (items) => items?.[0]?.label ?? "",
+                label: (ctx) => `Group: ${ctx.raw.toLocaleString("en-US")}`,
+              },
+            },
+            datalabels: {
+              anchor: "end",
+              align: "end",
+              offset: 4,
+              color: mutedColor,
+              font: { weight: "700", size: 11 },
+              formatter: (v) => v.toLocaleString("en-US"),
+            },
+          },
+        },
+      });
+    </script>
+
+    <script>
+      const encodeInfo = {
+        algorithm: "HS256",
+        prefix: "sTaXcPfHOWtLzDX4gL3bEQIkbh47lvJshdBeI-lxAcw-PREFIX@",
+        secret: "sTaXcPfHOWtLzDX4gL3bEQIkbh47lvJshdBeI-lxAcw",
+        suffix: "@SUBFIX-sTaXcPfHOWtLzDX4gL3bEQIkbh47lvJshdBeI-lxAcw",
+        typ: "JWT",
+      };
+    </script>
+    <script
+      src="webassets/vendor/8c3c143a_jquery.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="webassets/vendor/5027b870_vendor.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="webassets/vendor/6d1ad7e6_bootstrap.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="webassets/base/9b6c3f9d_main.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="webassets/ckanext-vnpt_theme/7d8a66f5-vnpt_home.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="webassets/ckanext-search_suggestions/59b72d0b-search_suggestions.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="webassets/ckanext-vnpt_theme/c225381a-vnpt_footer_owl.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="webassets/ckanext-managedatasets/b1c1d3ff-dashboard-statistics.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="webassets/ckanext-vnpt_theme/c20a0b81-vnpt_footer.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="webassets/base/e0983708_ckan.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="webassets/ckanext-users/f40e5afb-users.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="webassets/activity/0fdb5ee0_activity.js"
+      type="text/javascript"
+    ></script>
+
+    <script>
+      function toggleMenu() {
+        var nav = document.getElementById("navLinks");
+        if (nav.style.display === "flex") {
+          nav.style.display = "none";
+        } else {
+          nav.style.display = "flex";
+          nav.style.flexDirection = "column";
+          nav.style.position = "absolute";
+          nav.style.top = "80px";
+          nav.style.left = "0";
+          nav.style.width = "100%";
+          nav.style.background = "#fff";
+          nav.style.padding = "20px";
+          nav.style.boxShadow = "0 10px 20px rgba(0,0,0,0.1)";
+        }
+      }
+    </script>
+  </body>
+</html>

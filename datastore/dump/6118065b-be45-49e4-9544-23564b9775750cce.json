@@ -1,0 +1,5 @@
+{
+  "fields": [{"id":"_id","type":"int"},{"id":"Ten Van Ban Quy Pham Phap Luat Ve Danh Muc Thuoc Bao Ve Thuc Va","type":"text"},{"id":"So Hieu Van Ban","type":"text"},{"id":"Ngay Ban Hanh","type":"text"},{"id":"Co Quan Ban Hanh","type":"text"}],
+  "records": [
+    [1,"Thông tư ban hành danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam và Danh mục thuốc bảo vệ thực vật cấm sử dụng tại Việt Nam","09/2023/TT-BNNPTNT","24/10/2023","Bộ Nông nghiệp và Phát triển nông thôn"]
+]}

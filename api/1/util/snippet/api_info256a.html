@@ -1,0 +1,113 @@
+
+
+
+
+
+<div  class="modal" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+          <h3>
+            CKAN Data API
+          </h3>
+        </div>
+        <div  class="modal-body">
+          <p><strong>Truy cập dữ liệu nguồn thông qua API web với sự hỗ trợ truy vấn mạnh mẽ</strong>.
+          Further information in the <a href="http://docs.ckan.org/en/latest/maintaining/datastore.html" target="_blank">main CKAN Data API and DataStore documentation</a>.</p>
+          <div class="accordion" id="accordion2">
+            <div class="accordion-item">
+              <h2 class="accordion-heading">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-endpoints" aria-expanded="true" aria-controls="collapse-endpoints">Điểm kết thúc &raquo;</button>
+              </h2>
+              <div id="collapse-endpoints" class="accordion-collapse collapse show" aria-labelledby="collapse-endpoints" data-bs-parent="#accordion2">
+                <div class="accordion-body">
+                  <p>The Data API can be accessed via the following actions of the CKAN action API.</p>
+                  <table class="table table-striped table-bordered">
+                    <thead></thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Tạo</th>
+                        <td><code>https://odp.cantho.gov.vn/api/3/action/datastore_create</code></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Cập nhật / Chèn</th>
+                        <td><code>https://odp.cantho.gov.vn/api/3/action/datastore_upsert</code></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Truy vấn</th>
+                        <td><code>https://odp.cantho.gov.vn/api/3/action/datastore_search</code></td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-heading">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-querying" aria-expanded="false" aria-controls="collapse-querying">Đang truy vấn &raquo;</button>
+              </h2>
+              <div id="collapse-querying"  class="accordion-collapse collapse" aria-labelledby="collapse-querying" data-bs-parent="#accordion2">
+                <div class="accordion-body">
+                  <strong>Ví dụ truy vấn (5 kết quả đầu tiên)</strong>
+                  <p>
+                  <code><a href="../../../3/action/datastore_search0088.json?resource_id=ae55ca31-e71e-4b3f-86f5-dba9a3dc16bf&amp;limit=5" target="_blank" rel="noreferrer">https://odp.cantho.gov.vn/api/3/action/datastore_search?resource_id=ae55ca31-e71e-4b3f-86f5-dba9a3dc16bf&amp;limit=5</a></code>
+                  </p>
+
+                  <strong>Ví dụ truy vấn (kết quả có chứa 'jones')</strong>
+                  <p>
+                  <code><a href="../../../3/action/datastore_searcha8fd.json?resource_id=ae55ca31-e71e-4b3f-86f5-dba9a3dc16bf&amp;q=jones" target="_blank" rel="noreferrer">https://odp.cantho.gov.vn/api/3/action/datastore_search?resource_id=ae55ca31-e71e-4b3f-86f5-dba9a3dc16bf&amp;q=jones</a></code>
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-heading">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-javascript" aria-expanded="false" aria-controls="collapse-javascript"> Ví dụ: Javascript &raquo;</button>
+              </h2>
+              <div id="collapse-javascript" class="accordion-collapse collapse" aria-labelledby="collapse-javascript" data-bs-parent="#accordion2">
+                <div class="accordion-body">
+                  <p>Một yêu cầu ajax (JSONP) đơn giản tới API dữ liệu bằng jQuery.</p>
+                  <pre>
+          var data = {
+            resource_id: 'ae55ca31-e71e-4b3f-86f5-dba9a3dc16bf', // the resource id
+            limit: 5, // get 5 results
+            q: 'jones' // query for 'jones'
+          };
+          $.ajax({
+            url: 'https://odp.cantho.gov.vn/api/3/action/datastore_search',
+            data: data,
+            dataType: 'jsonp',
+            success: function(data) {
+              alert('Total results found: ' + data.result.total)
+            }
+          });</pre>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-heading">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-python" aria-expanded="false" aria-controls="collapse-python"> Ví dụ: Python &raquo;</button>
+              </div>
+              <div id="collapse-python" class="accordion-collapse collapse" aria-labelledby="collapse-python" data-bs-parent="#accordion2">
+                <div class="accordion-body">
+                  <pre>
+        import urllib.request
+        url = 'https://odp.cantho.gov.vn/api/3/action/datastore_search?resource_id=ae55ca31-e71e-4b3f-86f5-dba9a3dc16bf&amp;limit=5&amp;q=title:jones'  
+        fileobj = urllib.request.urlopen(url)
+        print(fileobj.read())
+        </pre>
+                </div>
+              </div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>

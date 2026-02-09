@@ -1,0 +1,43 @@
+#dataset-search-form {
+  position: relative;
+}
+
+.suggestion-box {
+  margin: -30px 0 !important;
+  border: none;
+  box-shadow: 0px 10px 20px rgba(8, 74, 120, 0.16);
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-top: 1px solid #084a78;
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  z-index: 1;
+}
+
+.ul-suggestions a:hover {
+  text-decoration: none !important;
+}
+
+.suggestions-item {
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+.suggestions-item:hover {
+  background-color: #ddd;
+}
+
+.ul-resources {
+  list-style: none;
+}
+
+.li-resource {
+  color: #9f5f00;
+}
+
+/* banner */
+.banner-search .suggestion-box {
+  width: 50%;
+}

@@ -1,0 +1,148 @@
+.rating-wrapper {
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+  }
+  
+  .rating-stars-wrapper {
+    padding: 5px;
+    margin-bottom: 5px;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #dddddd;
+    display: block;
+  }
+  
+  .rating-stars-wrapper.rating-stars-wrapper-flat {
+    padding: 0;
+    margin-bottom: 0;
+    border-width: 0;
+    border-style: none;
+    border-color: transparent;
+    display: inline-block;
+  }
+  
+  .star-rating,
+  .star-rating-stars {
+    display: inline-block;
+    margin-bottom: -3px;
+  }
+  
+  .rating-count {
+    vertical-align: super;
+  }
+  
+  .rating {
+    margin: 15px 0 0 0;
+  }
+  
+  .rating .heading {
+    margin-bottom: 0;
+  }
+  
+  .rating-value {
+    font-size: 24px;
+    display: block;
+  }
+  
+  .rating-container {
+    margin-bottom: 20px;
+  }
+  
+  .rating-star {
+    float: left;
+    font-size: 1.2em;
+    padding: 0 5px;
+    
+  }
+  .select-start{
+    cursor: pointer;
+  }
+  a.rating-star-hover,
+  a.rating-star-hover:hover,
+  a.rating-star:hover {
+    color: #a38729;
+    text-decoration: none;
+  }
+  
+  a.rating-star:focus,
+  a.rating-star:active,
+  a.rating-star:hover {
+    text-decoration: none;
+  }
+  
+  .rating-description {
+    color: #7c7c82;
+    font-size: 14px;
+  }
+  
+  .dataset-rating {
+    float: right;
+    display: inline-block;
+  }
+  
+  .dataset-rating span {
+    font-size: 14px;
+  }
+  
+  .follow_button{
+    margin: -5px 0px !important;
+    display: inline;
+    float: right;
+  }
+  
+  @media (max-width: 1199px){
+    .follow_button{
+      float: none;
+    }
+  }
+
+  .w-20 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+  
+  @media (min-width: 576px) {
+    .w-sm-20 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .w-md-20 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .w-lg-20 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .w-xl-20 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+  }
+.card {
+  border:none ;
+}  
+.rating-title {
+  font-size: 14px;
+  margin-top: 15px;
+}

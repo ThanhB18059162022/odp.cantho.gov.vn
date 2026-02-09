@@ -1,0 +1,37 @@
+.site-footer {
+    background: #0a77bd;
+    padding: 20px 0 0 0;
+    color: #fff;
+}
+
+.site-footer .copyright-footer {
+    background-color: #095c91;
+}
+
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    bottom: 25px;
+    color: #fff;
+    font-size: 30px;
+    height: 50px;
+    line-height: 30px;
+    right: 10px;
+    text-align: center;
+    width: 50px;
+    border-radius: 100%;
+    background: #00BAE3;
+}
+
+#scrollTopBtn:hover {
+    background-color: #555;
+}
+
+#scrollTopBtn .fa:last-child {
+    margin-right: 0px;
+}
+
+.site-footer .copyright-footer #version-tag{
+    text-align: right;
+}

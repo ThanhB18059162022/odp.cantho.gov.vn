@@ -1,0 +1,294 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="vi" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="vi" > <!--<![endif]-->
+
+<!-- Mirrored from opendata-documentation.readthedocs.io/vi/latest/api/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Apr 2020 08:11:18 GMT -->
+
+<!-- Mirrored from odp.cantho.gov.vn/api_guide by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 22 Jan 2026 06:30:21 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=2.0">
+  
+  <title>Hướng dẫn API &mdash; Tài liệu Open Data documentation 2.0</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+        <!-- <script type="text/javascript" src="/js/readthedocs-doc-embed.js"></script> -->
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Tìm Kiếm" href="search.html" />
+    <link rel="prev" title="Hướng dẫn sysadmin" href="sysadmin-guide.html" /> 
+
+<!-- RTD Extra Head -->
+
+<!-- 
+Always link to the latest version, as canonical.
+http://docs.readthedocs.org/en/latest/canonical.html
+-->
+<link rel="canonical" href="https://opendata-documentation.readthedocs.io/vi/latest/api/" />
+
+<!-- <link rel="stylesheet" href="/css/readthedocs-doc-embed.css" type="text/css" /> -->
+
+<script type="text/javascript" src="_static/readthedocs-data.js"></script>
+
+<!-- Add page-specific data, which must exist in the page js, not global -->
+<script type="text/javascript">
+READTHEDOCS_DATA['page'] = "api/index"
+READTHEDOCS_DATA['source_suffix'] = ".rst"
+</script>
+
+<!-- <script type="text/javascript" src="/js/readthedocs-analytics.js"></script> -->
+
+<!-- end RTD <extrahead> -->
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+	<a href="content_guide.html">
+    <p><h2>Hướng dẫn sử dụng</h2></P>
+    <p><h3>Cổng dữ liệu mở</h3></P>
+  </a>
+
+  
+	
+	  <div class="version">
+		2.0
+	  </div>
+	
+  
+
+
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="user_guide.html">Hướng dẫn người sử dụng</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sysadmin_guide.html">Hướng dẫn sysadmin</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Hướng dẫn API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#ho-tro-jsonp">Hỗ trợ JSONP</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#chuc-nang-get-able-api">Chức năng GET-able API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cac-vi-du-api">Các ví dụ API</a>
+  <ul>
+<li class="toctree-l3"><a class="reference internal" href="#tags">Tags</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li class="toctree-l1"><a class="reference internal" href="index.html">Trang chủ</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="content_guide.html">Open Data documentation</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="content_guide.html">Tài liệu</a> &raquo;</li>
+        
+      <li>Hướng dẫn API</li>
+
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="huong-dan-api">
+<span id="action-api"></span><h1>Hướng dẫn API<a class="headerlink" href="#huong-dan-api" title="Permalink to this headline">¶</a></h1>
+<p>Hướng dẫn API dành cho nhà phát triển muốn viết mã tương tác với các trang web và dữ liệu của họ.</p>
+<p>Ví dụ sử dụng API, ứng dụng của bạn có thể:</p>
+<ul>
+<li><p class="first">Lấy danh sách định dạng JSON của bộ dữ liệu, nhóm hoặc các đối tượng khác của trang web:</p>
+<p><a class="reference external" >https://odp.cantho.gov.vn/api/3/action/package_list</a></p>
+<p><a class="reference external" >https://odp.cantho.gov.vn/api/3/action/group_list</a></p>
+<p><a class="reference external" >https://odp.cantho.gov.vn/api/3/action/tag_list</a></p>
+</li>
+<li><p class="first">Lấy một JSON đầy đủ của một bộ dữ liệu, tài nguyên hoặc đối tượng khác:</p>
+<p><a class="reference external" >https://odp.cantho.gov.vn/api/3/action/tag_show?id=giao-duc</a></p>
+<p><a class="reference external" >https://odp.cantho.gov.vn/api/3/action/package_show?id=dataset_2020_36676</a></p>
+<p><a class="reference external" >https://odp.cantho.gov.vn/api/3/action/group_show?id=giao-thong</a></p>
+</li>
+<li><p class="first">Tìm kiếm các gói hoặc tài nguyên phù hợp với một truy vấn:</p>
+<p><a class="reference external" >https://odp.cantho.gov.vn/api/3/action/package_search?q=spending</a></p>
+<p><a class="reference external" >https://odp.cantho.gov.vn/api/3/action/resource_search?query=name:District%20Names</a></p>
+</li>
+<li><p class="first">Tạo, cập nhật và xóa bộ dữ liệu, tài nguyên và các đối tượng khác</p>
+</li>
+<li><p class="first">Lấy một luồng hoạt động của các bộ dữ liệu thay đổi gần đây trên một trang web:</p>
+<p><a class="reference external" >https://odp.cantho.gov.vn/api/3/action/recently_changed_packages_activity_list</a></p>
+</li>
+</ul>
+<div class="section" id="ho-tro-jsonp">
+<h2>Hỗ trợ JSONP<a class="headerlink" href="#ho-tro-jsonp" title="Permalink to this headline">¶</a></h2>
+<p>Để phục vụ cho các tập lệnh từ các trang web khác muốn truy cập API, dữ liệu có thể
+được trả về ở định dạng JSONP, trong đó dữ liệu JSON được 'padded' bằng một lệnh gọi hàm.
+Hàm được đặt tên trong tham số 'callback'.
+Ví dụ một yêu cầu:</p>
+<p><code class="docutils literal notranslate"><span class="pre">GET</span> <span class="pre">/api/rest/dataset/pollution_stats?callback=name-of-callback-function</span></code></p>
+<div class="admonition note">
+<p class="first admonition-title">Ghi chú</p>
+<p class="last">Chỉ hoạt động cho các yêu cầu GET</p>
+</div>
+</div>
+<div class="section" id="chuc-nang-get-able-api">
+<h2>Chức năng GET-able API<a class="headerlink" href="#chuc-nang-get-able-api" title="Permalink to this headline">¶</a></h2>
+<p>Các hàm được định nghĩa trong <cite>ckan.logic.action.get</cite> cũng có thể được gọi với yêu
+cầu HTTP GET. Ví dụ: để lấy danh sách các bộ dữ liệu từ web, hãy
+mở URL này trong trình duyệt của bạn:</p>
+<p><a class="reference external" >https://odp.cantho.gov.vn/api/3/action/group_list</a></p>
+<p>Hoặc, để tìm kiếm bộ dữ liệu khớp với truy vấn tìm kiếm <code class="docutils literal notranslate"><span class="pre">test</span></code> trên web,
+hãy mở URL này trong trình duyệt của bạn:</p>
+<p><a class="reference external" >https://odp.cantho.gov.vn/api/3/action/package_search?q=test</a></p>
+<p>Truy vấn tìm kiếm được đưa ra dưới dạng tham số URL <code class="docutils literal notranslate"><span class="pre">?q=test</span></code>. Nhiều tham số URL có thể được gắn vào,
+phân tách bằng ký tự <code class="docutils literal notranslate"><span class="pre">&amp;</span></code>, ví dụ để chỉ nhận 5 bộ dữ liệu phù hợp đầu tiên được mở URL này:</p>
+<p><a class="reference external" >https://odp.cantho.gov.vn/api/3/action/package_search?q=spending&amp;rows=5</a></p>
+</div>
+<div class="section" id="cac-vi-du-api">
+<span id="api-examples"></span><h2>Các ví dụ API<a class="headerlink" href="#cac-vi-du-api" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="tags">
+<h3>Tags<a class="headerlink" href="#tags" title="Permalink to this headline">¶</a></h3>
+<p>Danh sách tất cả các thẻ (tags):</p>
+<ul class="simple">
+<li>trình duyệt: <a class="reference external" >https://odp.cantho.gov.vn/api/3/action/tag_list</a></li>
+<li>curl: <code class="docutils literal notranslate"><span class="pre">curl</span> <span class="pre">https://odp.cantho.gov.vn/api/3/action/tag_list</span></code></li>
+<li>ckanapi: <code class="docutils literal notranslate"><span class="pre">ckanapi</span> <span class="pre">-r</span> <span class="pre">https://odp.cantho.gov.vn</span> <span class="pre">action</span> <span class="pre">tag_list</span></code></li>
+</ul>
+<p>Top 10 thẻ (tags) được sử dụng bởi các bộ dữ liệu:</p>
+<ul class="simple">
+<li>trình duyệt: <a class="reference external" >https://odp.cantho.gov.vn/api/action/package_search?facet.field=["tags"]&amp;facet.limit=10&amp;rows=0</a></li>
+<li>curl: <code class="docutils literal notranslate"><span class="pre">curl</span> <span class="pre">'https://odp.cantho.gov.vn/api/action/package_search?facet.field=\[&quot;tags&quot;\]&amp;facet.limit=10&amp;rows=0'</span></code></li>
+<li>ckanapi: <code class="docutils literal notranslate"><span class="pre">ckanapi</span> <span class="pre">-r https://odp.cantho.gov.vn</span> <span class="pre">action</span> <span class="pre">package_search</span> <span class="pre">facet.field='[&quot;tags&quot;]'</span> <span class="pre">facet.limit=10</span> <span class="pre">rows=0</span></code></li>
+</ul>
+<p>Tất cả các bộ dữ liệu có thẻ (tag) 'giáo dục':</p>
+<ul class="simple">
+<li>trình duyệt: <a class="reference external" >https://odp.cantho.gov.vn/api/3/action/package_search?fq=tags:giao-duc</a></li>
+<li>curl: <code class="docutils literal notranslate"><span class="pre">curl</span> <span class="pre">'https://odp.cantho.gov.vn/api/3/action/package_search?fq=tags:giao-duc'</span></code></li>
+<li>ckanapi: <code class="docutils literal notranslate"><span class="pre">ckanapi</span> <span class="pre">-r</span> <span class="pre">https://odp.cantho.gov.vn</span> <span class="pre">action</span> <span class="pre">package_search</span> <span class="pre">fq='tags:giao-duc'</span></code></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation"
+         aria-label="footer navigation">
+      
+      
+        <a href="sysadmin_guide.html" class="btn btn-neutral"
+           title="Hướng dẫn sysadmin">
+           <span class="icon fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr></hr>
+
+  
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+   
+
+</body>
+
+<!-- Mirrored from opendata-documentation.readthedocs.io/vi/latest/api/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Apr 2020 08:11:18 GMT -->
+
+<!-- Mirrored from odp.cantho.gov.vn/api_guide by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 22 Jan 2026 06:30:21 GMT -->
+</html>

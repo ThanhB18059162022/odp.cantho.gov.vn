@@ -1,0 +1,24 @@
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<row _id="1"><STT>1</STT><Cap hoc>Mầm non</Cap hoc><Khoi>3-12 tháng</Khoi><So luong>22</So luong><Gioi tinh (nu)>7</Gioi tinh (nu)></row>
+<row _id="2"><STT>2</STT><Cap hoc>Mầm non</Cap hoc><Khoi>13-24 tháng</Khoi><So luong>2,870</So luong><Gioi tinh (nu)>1,327</Gioi tinh (nu)></row>
+<row _id="3"><STT>3</STT><Cap hoc>Mầm non</Cap hoc><Khoi>25-36 tháng</Khoi><So luong>16,679</So luong><Gioi tinh (nu)>7,697</Gioi tinh (nu)></row>
+<row _id="4"><STT>4</STT><Cap hoc>Mầm non</Cap hoc><Khoi>3-4 tuổi</Khoi><So luong>29,657</So luong><Gioi tinh (nu)>13,958</Gioi tinh (nu)></row>
+<row _id="5"><STT>5</STT><Cap hoc>Mầm non</Cap hoc><Khoi>4-5 tuổi</Khoi><So luong>32,966</So luong><Gioi tinh (nu)>15,791</Gioi tinh (nu)></row>
+<row _id="6"><STT>6</STT><Cap hoc>Mầm non</Cap hoc><Khoi>5-6 tuổi</Khoi><So luong>33,357</So luong><Gioi tinh (nu)>16,008</Gioi tinh (nu)></row>
+<row _id="7"><STT>7</STT><Cap hoc>Tiểu học</Cap hoc><Khoi>Lớp 1</Khoi><So luong>35,259</So luong><Gioi tinh (nu)>16,810</Gioi tinh (nu)></row>
+<row _id="8"><STT>8</STT><Cap hoc>Tiểu học</Cap hoc><Khoi>Lớp 2</Khoi><So luong>32,374</So luong><Gioi tinh (nu)>15,453</Gioi tinh (nu)></row>
+<row _id="9"><STT>9</STT><Cap hoc>Tiểu học</Cap hoc><Khoi>Lớp 3</Khoi><So luong>37,486</So luong><Gioi tinh (nu)>17,733</Gioi tinh (nu)></row>
+<row _id="10"><STT>10</STT><Cap hoc>Tiểu học</Cap hoc><Khoi>Lớp 4</Khoi><So luong>38,319</So luong><Gioi tinh (nu)>18,145</Gioi tinh (nu)></row>
+<row _id="11"><STT>11</STT><Cap hoc>Tiểu học</Cap hoc><Khoi>Lớp 5</Khoi><So luong>38,549</So luong><Gioi tinh (nu)>18,431</Gioi tinh (nu)></row>
+<row _id="12"><STT>12</STT><Cap hoc>Trung học cơ sở</Cap hoc><Khoi>Lớp 6</Khoi><So luong>46,960</So luong><Gioi tinh (nu)>22,391</Gioi tinh (nu)></row>
+<row _id="13"><STT>13</STT><Cap hoc>Trung học cơ sở</Cap hoc><Khoi>Lớp 7</Khoi><So luong>37,812</So luong><Gioi tinh (nu)>18,332</Gioi tinh (nu)></row>
+<row _id="14"><STT>14</STT><Cap hoc>Trung học cơ sở</Cap hoc><Khoi>Lớp 8</Khoi><So luong>33,392</So luong><Gioi tinh (nu)>16,078</Gioi tinh (nu)></row>
+<row _id="15"><STT>15</STT><Cap hoc>Trung học cơ sở</Cap hoc><Khoi>Lớp 9</Khoi><So luong>33,957</So luong><Gioi tinh (nu)>16,364</Gioi tinh (nu)></row>
+<row _id="16"><STT>16</STT><Cap hoc>Trung học phổ thông</Cap hoc><Khoi>Lớp 10</Khoi><So luong>27,797</So luong><Gioi tinh (nu)>14,252</Gioi tinh (nu)></row>
+<row _id="17"><STT>17</STT><Cap hoc>Trung học phổ thông</Cap hoc><Khoi>Lớp 11</Khoi><So luong>26,589</So luong><Gioi tinh (nu)>13,652</Gioi tinh (nu)></row>
+<row _id="18"><STT>18</STT><Cap hoc>Trung học phổ thông</Cap hoc><Khoi>Lớp 12</Khoi><So luong>22,679</So luong><Gioi tinh (nu)>11,842</Gioi tinh (nu)></row>
+<row _id="19"><STT>19</STT><Cap hoc>Giáo dục thường xuyên</Cap hoc><Khoi>Lớp 9</Khoi><So luong>51</So luong><Gioi tinh (nu)>14</Gioi tinh (nu)></row>
+<row _id="20"><STT>20</STT><Cap hoc>Giáo dục thường xuyên</Cap hoc><Khoi>Lớp 10</Khoi><So luong>3456</So luong><Gioi tinh (nu)>1019</Gioi tinh (nu)></row>
+<row _id="21"><STT>21</STT><Cap hoc>Giáo dục thường xuyên</Cap hoc><Khoi>Lớp 11</Khoi><So luong>3079</So luong><Gioi tinh (nu)>896</Gioi tinh (nu)></row>
+<row _id="22"><STT>22</STT><Cap hoc>Giáo dục thường xuyên</Cap hoc><Khoi>Lớp 12</Khoi><So luong>2708</So luong><Gioi tinh (nu)>799</Gioi tinh (nu)></row>
+</data>
