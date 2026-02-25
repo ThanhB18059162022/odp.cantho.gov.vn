@@ -46,7 +46,8 @@
       href="webassets/ckanext-vnpt_theme/custom-hero.css"
     />
     <!-- Chart.js + DataLabels -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0"></script>
 
     <style>
@@ -249,7 +250,7 @@
                 </div>
                 <div class="dataset-list">
                   <a href="#" class="ds-item">
-                    <div class="ds-icon"><i class="fa fa-file-text-o"></i></div>
+                    <!-- <div class="ds-icon"><i class="fa fa-file-text-o"></i></div> -->
                     <div class="ds-content">
                       <h4>Dữ liệu giáo dục mầm non năm 2024</h4>
                       <span class="ds-org">Sở Giáo dục và Đào tạo</span>
@@ -264,7 +265,7 @@
                     </div>
                   </a>
                   <a href="#" class="ds-item">
-                    <div class="ds-icon"><i class="fa fa-hospital-o"></i></div>
+                    <!-- <div class="ds-icon"><i class="fa fa-hospital-o"></i></div> -->
                     <div class="ds-content">
                       <h4>Danh sách các cơ sở khám chữa bệnh BHYT</h4>
                       <span class="ds-org">Sở Y tế</span>
@@ -279,7 +280,7 @@
                     </div>
                   </a>
                   <a href="#" class="ds-item">
-                    <div class="ds-icon"><i class="fa fa-map-marker"></i></div>
+                    <!-- <div class="ds-icon"><i class="fa fa-map-marker"></i></div> -->
                     <div class="ds-content">
                       <h4>Bản đồ quy hoạch sử dụng đất quận Ninh Kiều</h4>
                       <span class="ds-org">Sở Tài nguyên và Môi trường</span>
@@ -294,7 +295,7 @@
                     </div>
                   </a>
                   <a href="#" class="ds-item">
-                    <div class="ds-icon"><i class="fa fa-building"></i></div>
+                    <!-- <div class="ds-icon"><i class="fa fa-building"></i></div> -->
                     <div class="ds-content">
                       <h4>Danh sách doanh nghiệp mới thành lập quý I/2024</h4>
                       <span class="ds-org">Sở Kế hoạch và Đầu tư</span>
@@ -592,9 +593,14 @@
               },
             },
             datalabels: {
-              color: "rgba(0,0,0,.75)",
+              color: textColor,
               font: { weight: "700", size: 11 },
-              // show only meaningful slices to avoid clutter (still labels are "kept")
+
+              anchor: "end", // neo ra mép ngoài
+              align: "end", // đẩy ra ngoài
+              offset: 0, // khoảng cách khỏi hình tròn
+              clamp: false,
+              clip: false,
               display: (ctx) => {
                 const v = ctx.dataset.data[ctx.dataIndex];
                 return v / orgTotal >= 0.03; // >= 3%
