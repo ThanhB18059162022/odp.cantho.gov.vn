@@ -103,7 +103,7 @@
 
       .chartBox {
         position: relative;
-        height: 320px;
+        height: 340px;
       }
       .chartBox.tall {
         height: 340px;
@@ -571,7 +571,7 @@
         options: {
           responsive: true,
           maintainAspectRatio: false,
-          layout: { padding: { top: 8, bottom: 8 } },
+          layout: { padding: { top: 0, bottom: 20 } },
           plugins: {
             legend: {
               position: "top",
@@ -581,7 +581,7 @@
                 usePointStyle: false,
                 boxWidth: 38,
                 boxHeight: 10,
-                padding: 14,
+                padding: 8,
               },
             },
             tooltip: {
@@ -601,10 +601,10 @@
               offset: 0, // khoảng cách khỏi hình tròn
               clamp: false,
               clip: false,
-              display: (ctx) => {
-                const v = ctx.dataset.data[ctx.dataIndex];
-                return v / orgTotal >= 0.03; // >= 3%
-              },
+              // display: (ctx) => {
+              //   const v = ctx.dataset.data[ctx.dataIndex];
+              //   return v / orgTotal >= 0.03; // >= 3%
+              // },
               formatter: (value) => {
                 const pct = ((value / orgTotal) * 100).toFixed(2);
                 return `${value.toLocaleString("en-US")} (${pct}%)`;
