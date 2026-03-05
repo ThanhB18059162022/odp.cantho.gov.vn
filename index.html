@@ -41,7 +41,6 @@
 
 .hero-section{
     margin-top:0 !important;
-    background-image: url('images/bg_ai2.jpg'); /* ĐƯỜNG DẪN ẢNH NỀN */
 }
 
 
@@ -359,10 +358,36 @@
 }
 
 }
+.chart-rating-note{
+margin-top:12px;
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+
+font-size:14px;
+font-weight:500;
+}
+
+.chart-rating-note i{
+margin-right:6px;
+}
+
+.rating-good{
+color:#16a34a;
+}
+
+.rating-ok{
+color:#f59e0b;
+}
+
+.rating-bad{
+color:#ef4444;
+}
     </style>
 </head>
 
-<body class="homepage modern-theme" data-site-root="/" data-locale-root="index.html">
+<body class="homepage modern-theme" data-site-root="http://localhost:8000" data-locale-root="index.html">
 
     <div class="visually-hidden-focusable"><a href="#content">Chuyển đến nội dung chính</a></div>
 
@@ -414,7 +439,7 @@
                             
                             <div class="dataset-list">
                                 <a href="#" class="ds-item">
-                                    <!-- <div class="ds-icon"><i class="fa fa-file-text-o"></i></div> -->
+                                    <div class="ds-icon"><i class="fa fa-file-text-o"></i></div>
                                     <div class="ds-content">
                                         <h4>Dữ liệu giáo dục mầm non năm 2024</h4>
                                         <span class="ds-org">Sở Giáo dục và Đào tạo</span>
@@ -427,7 +452,7 @@
                                 </a>
                                 
                                 <a href="#" class="ds-item">
-                                    <!-- <div class="ds-icon"><i class="fa fa-hospital-o"></i></div> -->
+                                    <div class="ds-icon"><i class="fa fa-hospital-o"></i></div>
                                     <div class="ds-content">
                                         <h4>Danh sách các cơ sở khám chữa bệnh BHYT</h4>
                                         <span class="ds-org">Sở Y tế</span>
@@ -440,7 +465,7 @@
                                 </a>
 
                                 <a href="#" class="ds-item">
-                                    <!-- <div class="ds-icon"><i class="fa fa-map-marker"></i></div> -->
+                                    <div class="ds-icon"><i class="fa fa-map-marker"></i></div>
                                     <div class="ds-content">
                                         <h4>Bản đồ quy hoạch sử dụng đất quận Ninh Kiều</h4>
                                         <span class="ds-org">Sở Tài nguyên và Môi trường</span>
@@ -453,7 +478,7 @@
                                 </a>
 
                                 <a href="#" class="ds-item">
-                                    <!-- <div class="ds-icon"><i class="fa fa-building"></i></div> -->
+                                    <div class="ds-icon"><i class="fa fa-building"></i></div>
                                     <div class="ds-content">
                                         <h4>Danh sách doanh nghiệp mới thành lập quý I/2024</h4>
                                         <span class="ds-org">Sở Kế hoạch và Đầu tư</span>
@@ -466,7 +491,7 @@
                                 </a>
 
                                 <a href="#" class="ds-item">
-                                    <!-- <div class="ds-icon"><i class="fa fa-leaf"></i></div> -->
+                                    <div class="ds-icon"><i class="fa fa-leaf"></i></div>
                                     <div class="ds-content">
                                         <h4>Chỉ số chất lượng không khí (AQI) các trạm đo</h4>
                                         <span class="ds-org">Sở Tài nguyên và Môi trường</span>
@@ -479,7 +504,7 @@
                                 </a>
 
                                 <a href="#" class="ds-item">
-                                    <!-- <div class="ds-icon"><i class="fa fa-bus"></i></div> -->
+                                    <div class="ds-icon"><i class="fa fa-bus"></i></div>
                                     <div class="ds-content">
                                         <h4>Lịch trình tuyến xe buýt nội tỉnh</h4>
                                         <span class="ds-org">Sở Giao thông Vận tải</span>
@@ -548,8 +573,22 @@
                             </div>
                             <div class="panel-body" style="padding: 30px 20px; background: #fff;">
                                 <div style="position: relative; height: 300px; width: 100%;">
-                                    <canvas id="chartQuality"></canvas>
-                                </div>
+    <canvas id="chartQuality"></canvas>
+</div>
+
+<div class="chart-rating-note">
+    <span class="rating-good">
+        <i class="fa fa-star"></i> Tốt: 4–5 sao
+    </span>
+
+    <span class="rating-ok">
+        <i class="fa fa-star"></i> Khá: 3–4 sao
+    </span>
+
+    <span class="rating-bad">
+        <i class="fa fa-star"></i> Chưa đạt: dưới 3 sao
+    </span>
+</div>
                             </div>
                         </div>
                     </div>
