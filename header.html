@@ -1,26 +1,290 @@
-<link rel="stylesheet" href="/webassets/ckanext-vnpt_theme/custom-hero.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+/* RESET */
+
+body{
+margin:0;
+padding:0;
+}
+
+/* ================= HEADER ================= */
+
+.main-header{
+background:#ffffff;
+border-bottom:1px solid #eee;
+position:sticky;
+top:0;
+z-index:9999;
+width:100%;
+}
+
+.header-container{
+
+max-width:1200px;
+margin:auto;
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+
+padding:10px 15px;
+}
+/* FIX khoảng trắng giữa header và hero */
+
+.homepage .container {
+    padding-top: 0 !important;
+}
+
+.homepage .module-content {
+    padding-top: 0 !important;
+}
+
+.sf-hero,
+.hero {
+    margin-top: 0 !important;
+}
+/* ===== LOGO ===== */
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+text-decoration:none;
+}
+
+.logo img{
+height:42px;
+}
+
+.logo-text{
+line-height:1.2;
+}
+
+.logo-text span{
+font-size:12px;
+color:#666;
+display:block;
+}
+
+.logo-text strong{
+font-size:16px;
+color:#1c3d5a;
+}
+
+/* ===== NAVIGATION ===== */
+
+.main-nav{
+display:flex;
+align-items:center;
+}
+
+.nav-links{
+
+list-style:none;
+
+display:flex;
+align-items:center;
+gap:20px;
+
+margin:0;
+padding:0;
+}
+
+.nav-links li a{
+text-decoration:none;
+font-size:15px;
+color:#333;
+font-weight:500;
+}
+
+.nav-links li a:hover{
+color:#0b66c3;
+}
+
+/* ===== BUTTON ===== */
+
+.btn-cta a{
+
+background:#0b66c3;
+color:#fff !important;
+
+padding:7px 14px;
+border-radius:6px;
+
+}
+
+.btn-register a{
+background:#00a651 !important;
+}
+
+.btn-register a:hover{
+background:#00803e !important;
+}
+
+/* ===== MOBILE BUTTON ===== */
+
+.mobile-menu-btn{
+
+display:none;
+
+font-size:22px;
+border:none;
+background:none;
+cursor:pointer;
+
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width:768px){
+
+.logo-text{
+display:block;
+}
+
+.logo-text span{
+font-size:10px;
+}
+
+.logo-text strong{
+font-size:13px;
+}
+
+.mobile-menu-btn{
+display:block;
+}
+
+/* MENU MOBILE */
+
+.nav-links{
+
+position:fixed;
+
+top:60px;
+left:0;
+
+width:100%;
+height:auto;
+
+background:#ffffff;
+
+flex-direction:column;
+align-items:flex-start;
+
+padding:20px;
+
+box-shadow:0 5px 20px rgba(0,0,0,0.15);
+
+display:none;
+}
+
+.nav-links.show{
+display:flex;
+}
+
+.nav-links li{
+width:100%;
+}
+
+.nav-links li a{
+
+display:block;
+width:100%;
+
+padding:14px 0;
+
+border-bottom:1px solid #eee;
+
+}
+
+.btn-cta{
+width:100%;
+}
+
+.btn-cta a{
+
+display:block;
+text-align:center;
+
+margin-top:10px;
+
+}
+
+}
+
+/* ===== FIX HERO CKAN ===== */
+
+.sf-hero,
+.hero{
+margin-top:0 !important;
+}
+
+</style>
+
 
 <header class="main-header">
-    <div class="container header-container">
-        <a class="logo" href="/">
-            <img src="/uploads/admin/2024-10-21-034610.460401Picture3.png" alt="Cổng dữ liệu mở" />
-            <div class="logo-text">
-                <span>CỔNG DỮ LIỆU</span>
-                <strong>Thành phố Cần Thơ</strong>
-            </div>
-        </a>
 
-        <nav class="main-nav">
-            <ul class="nav-links" id="navLinks">
-                <li><a href="/dataset/index.html">Dữ liệu</a></li>
-                <li><a href="/organization/index.html">Tổ chức</a></li>
-                <li><a href="/group/index.html">Chủ đề</a></li>
-                <li><a href="/blog.html">Tin tức</a></li>
-                <li class="btn-cta"><a href="/user/login.html">Đăng nhập</a></li>
-            </ul>
-            <button class="mobile-menu-btn" onclick="toggleMenu()">
-                <i class="fa fa-bars"></i>
-            </button>
-        </nav>
-    </div>
+<div class="header-container">
+
+<a class="logo" href="/">
+
+<img src="/uploads/admin/2024-10-21-034610.460401Picture3.png">
+
+<div class="logo-text">
+
+<span>CỔNG DỮ LIỆU</span>
+<strong>THÀNH PHỐ CẦN THƠ</strong>
+
+</div>
+
+</a>
+
+
+<nav class="main-nav">
+
+<ul class="nav-links" id="navLinks">
+
+<li><a href="/dataset">Dữ liệu</a></li>
+
+<li><a href="/organization">Tổ chức</a></li>
+
+<li><a href="/group">Chủ đề</a></li>
+
+<li><a href="/blog">Tin tức</a></li>
+
+<li><a href="/datarequest">Yêu cầu dữ liệu</a></li>
+
+<li class="btn-cta">
+<a href="/user/login">Đăng nhập</a>
+</li>
+
+<li class="btn-cta btn-register">
+<a href="/user/register">Đăng ký</a>
+</li>
+
+</ul>
+
+<button class="mobile-menu-btn" onclick="toggleMenu()">
+<i class="fa fa-bars"></i>
+</button>
+
+</nav>
+
+</div>
+
 </header>
+
+
+<script>
+
+function toggleMenu(){
+
+const nav = document.getElementById("navLinks");
+
+nav.classList.toggle("show");
+
+}
+
+</script>

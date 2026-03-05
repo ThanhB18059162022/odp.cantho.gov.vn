@@ -76,21 +76,6 @@ a { text-decoration: none; color: inherit; transition: 0.3s; }
     transform: translateY(-2px);
 }
 
-.btn-ctb a {
-    background-color: #009245;
-    color: #ffffff !important;
-    padding: 10px 24px;
-    border-radius: 50px;
-    font-weight: 600;
-    font-size: 14px;
-    box-shadow: 0 4px 10px rgba(0, 128, 0, 0.2);
-}
-
-.btn-ctb a:hover {
-    background-color: hsl(148, 100%, 20%);
-    transform: translateY(-2px);
-}
-
 .mobile-menu-btn { display: none; background: none; border: none; font-size: 24px; cursor: pointer; }
 
 /* =========================================================
