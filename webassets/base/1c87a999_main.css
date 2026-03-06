@@ -13634,7 +13634,7 @@ td.diff_header {
   color: #CCDEE3;
 }
 .site-footer a {
-  color: #CCDEE3;
+  /* color: #CCDEE3; */
 }
 .site-footer .footer-links ul {
   margin: 0;

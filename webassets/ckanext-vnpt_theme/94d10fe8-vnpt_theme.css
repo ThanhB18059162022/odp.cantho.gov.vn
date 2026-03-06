@@ -193,13 +193,15 @@ body {
    FOOTER
 ================================================== */
 .site-footer {
-  background: #00254c;
-  color: #ffffff;
+  /* background: #00254c;
+  color: #ffffff; */
+  background: var(--bg-light);
+  color: var(--text-color);
 }
 
 .site-footer a {
-  color: #ffffff;
-  opacity: .85;
+  /* color: #ffffff; */
+  /* opacity: .85; */
 }
 
 .site-footer a:hover {
