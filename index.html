@@ -385,6 +385,117 @@
       .rating-bad {
         color: #ef4444;
       }
+
+      /* ================= TOPIC CAROUSEL ================= */
+      .topic-carousel {
+        position: relative;
+        width: 100%;
+      }
+
+      .tc-main {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .tc-viewport {
+        flex: 1;
+        overflow: hidden;
+      }
+
+      .tc-track {
+        display: flex;
+        transition: transform 0.45s cubic-bezier(0.25, 0.8, 0.25, 1);
+      }
+
+      /* mỗi trang chiếm trọn bề ngang viewport */
+      .tc-page {
+        flex: 0 0 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 30px;
+      }
+
+      /* mũi tên trái / phải */
+      .tc-arrow {
+        flex: 0 0 auto;
+        width: 46px;
+        height: 46px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.85);
+        color: #0b4a8b;
+        font-size: 18px;
+        cursor: pointer;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+        transition: all 0.25s ease;
+      }
+
+      .tc-arrow:hover {
+        background: #fff;
+        transform: scale(1.08);
+      }
+
+      .tc-arrow:disabled {
+        opacity: 0.4;
+        cursor: default;
+        transform: none;
+        box-shadow: none;
+      }
+
+      /* chấm điều hướng */
+      .tc-dots {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 22px;
+      }
+
+      .tc-dot {
+        width: 9px;
+        height: 9px;
+        padding: 0;
+        border: none;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+        transition: all 0.25s ease;
+      }
+
+      .tc-dot.active {
+        width: 26px;
+        border-radius: 6px;
+        background: #fff;
+      }
+
+      @media (max-width: 1100px) {
+        .tc-page {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+
+      @media (max-width: 992px) {
+        .tc-page {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+
+      @media (max-width: 768px) {
+        .tc-page {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 15px;
+        }
+
+        .tc-arrow {
+          width: 38px;
+          height: 38px;
+          font-size: 15px;
+        }
+      }
     </style>
   </head>
 
@@ -421,53 +532,207 @@
           </div>
         </form>
 
-        <div
-          id="groups"
-          class="sf-topic-grid glass-grid"
-          style="margin-top: 50px"
-        >
-          <a href="group/giao-duc.html" class="sf-topic-card"
-            ><div class="icon-wrapper">
-              <i class="fa fa-graduation-cap"></i>
+        <div class="topic-carousel" id="topicCarousel" style="margin-top: 50px">
+          <div class="tc-main">
+            <button
+              type="button"
+              class="tc-arrow tc-prev"
+              aria-label="Trang trước"
+            >
+              <i class="fa fa-chevron-left"></i>
+            </button>
+
+            <div class="tc-viewport">
+              <div id="groups" class="tc-track">
+                <a href="group/giao-duc.html" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-graduation-cap"></i>
+                  </div>
+                  <span>Giáo dục</span></a
+                >
+                <a href="group/y-te.html" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-heartbeat"></i>
+                  </div>
+                  <span>Y tế</span></a
+                >
+                <a href="group/khoa-hoc-cong-nghe.html" class="sf-topic-card"
+                  ><div class="icon-wrapper"><i class="fa fa-flask"></i></div>
+                  <span>Khoa học - Công nghệ</span></a
+                >
+                <a href="group/cong-thuong.html" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-industry"></i>
+                  </div>
+                  <span>Công Thương</span></a
+                >
+                <a href="group/tai-chinh.html" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-line-chart"></i>
+                  </div>
+                  <span>Tài chính</span></a
+                >
+                <a href="group/van-hoa-du-lich.html" class="sf-topic-card"
+                  ><div class="icon-wrapper"><i class="fa fa-camera"></i></div>
+                  <span>Văn hóa, TT & Du lịch</span></a
+                >
+                <a href="group/xay-dung.html" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-building"></i>
+                  </div>
+                  <span>Xây dựng</span></a
+                >
+                <a href="group/lao-dong-viec-lam.html" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-briefcase"></i>
+                  </div>
+                  <span>Lao động</span></a
+                >
+                <a
+                  href="group/nong-nghiep-moi-truong.html"
+                  class="sf-topic-card"
+                  ><div class="icon-wrapper"><i class="fa fa-leaf"></i></div>
+                  <span>Nông nghiệp & Môi trường</span></a
+                >
+                <a href="group/ton-giao.html" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <span>Tôn giáo</span></a
+                >
+                <a href="" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <span>Chủ đề nháp 1</span></a
+                >
+                <a href="" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <span>Chủ đề nháp 2</span></a
+                >
+                <a href="" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <span>Chủ đề nháp 3</span></a
+                >
+                <a href="" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <span>Chủ đề nháp 4</span></a
+                >
+                <a href="" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <span>Chủ đề nháp 5</span></a
+                >
+                <a href="" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <span>Chủ đề nháp 6</span></a
+                >
+                <a href="" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <span>Chủ đề nháp 7</span></a
+                >
+                <a href="" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <span>Chủ đề nháp 8</span></a
+                >
+                <a href="" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <span>Chủ đề nháp 9</span></a
+                >
+                <a href="" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <span>Chủ đề nháp 10</span></a
+                >
+                <a href="" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <span>Chủ đề nháp 11</span></a
+                >
+                <a href="" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <span>Chủ đề nháp 12</span></a
+                >
+                <a href="" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <span>Chủ đề nháp 13</span></a
+                >
+                <a href="" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <span>Chủ đề nháp 14</span></a
+                >
+                <a href="" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <span>Chủ đề nháp 15</span></a
+                >
+                <a href="" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <span>Chủ đề nháp 16</span></a
+                >
+                <a href="" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <span>Chủ đề nháp 17</span></a
+                >
+                <a href="" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <span>Chủ đề nháp 18</span></a
+                >
+                <a href="" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <span>Chủ đề nháp 19</span></a
+                >
+                <a href="" class="sf-topic-card"
+                  ><div class="icon-wrapper">
+                    <i class="fa fa-university"></i>
+                  </div>
+                  <span>Chủ đề nháp 20</span></a
+                >
+              </div>
             </div>
-            <span>Giáo dục</span></a
-          >
-          <a href="group/y-te.html" class="sf-topic-card"
-            ><div class="icon-wrapper"><i class="fa fa-heartbeat"></i></div>
-            <span>Y tế</span></a
-          >
-          <a href="group/khoa-hoc-cong-nghe.html" class="sf-topic-card"
-            ><div class="icon-wrapper"><i class="fa fa-flask"></i></div>
-            <span>Khoa học - Công nghệ</span></a
-          >
-          <a href="group/cong-thuong.html" class="sf-topic-card"
-            ><div class="icon-wrapper"><i class="fa fa-industry"></i></div>
-            <span>Công Thương</span></a
-          >
-          <a href="group/tai-chinh.html" class="sf-topic-card"
-            ><div class="icon-wrapper"><i class="fa fa-line-chart"></i></div>
-            <span>Tài chính</span></a
-          >
-          <a href="group/van-hoa-du-lich.html" class="sf-topic-card"
-            ><div class="icon-wrapper"><i class="fa fa-camera"></i></div>
-            <span>Văn hóa, TT & Du lịch</span></a
-          >
-          <a href="group/xay-dung.html" class="sf-topic-card"
-            ><div class="icon-wrapper"><i class="fa fa-building"></i></div>
-            <span>Xây dựng</span></a
-          >
-          <a href="group/lao-dong-viec-lam.html" class="sf-topic-card"
-            ><div class="icon-wrapper"><i class="fa fa-briefcase"></i></div>
-            <span>Lao động</span></a
-          >
-          <a href="group/nong-nghiep-moi-truong.html" class="sf-topic-card"
-            ><div class="icon-wrapper"><i class="fa fa-leaf"></i></div>
-            <span>Nông nghiệp & Môi trường</span></a
-          >
-          <a href="group/ton-giao.html" class="sf-topic-card"
-            ><div class="icon-wrapper"><i class="fa fa-university"></i></div>
-            <span>Tôn giáo</span></a
-          >
+
+            <button
+              type="button"
+              class="tc-arrow tc-next"
+              aria-label="Trang sau"
+            >
+              <i class="fa fa-chevron-right"></i>
+            </button>
+          </div>
+
+          <div class="tc-dots" id="tcDots"></div>
         </div>
       </div>
     </section>
@@ -1019,6 +1284,115 @@
           },
         });
       });
+    </script>
+
+    <script>
+      // ================= TOPIC CAROUSEL =================
+      (function () {
+        function initTopicCarousel() {
+          var carousel = document.getElementById("topicCarousel");
+          if (!carousel) return;
+
+          var track = document.getElementById("groups");
+          var dotsBox = document.getElementById("tcDots");
+          var prevBtn = carousel.querySelector(".tc-prev");
+          var nextBtn = carousel.querySelector(".tc-next");
+
+          // Lưu lại toàn bộ thẻ chủ đề gốc (chỉ đọc 1 lần)
+          var cards = Array.prototype.slice.call(
+            track.querySelectorAll(".sf-topic-card"),
+          );
+          var current = 0;
+          var pages = 0;
+
+          // Số chủ đề hiển thị trên mỗi trang.
+          // Mỗi trang hiển thị 10 chủ đề trên desktop; thu nhỏ theo màn hình.
+          function getPerPage() {
+            var w = window.innerWidth;
+            if (w <= 768) return 4;
+            if (w <= 992) return 6;
+            if (w <= 1100) return 8;
+            return 10;
+          }
+
+          function build() {
+            var perPage = getPerPage();
+            track.innerHTML = "";
+            dotsBox.innerHTML = "";
+            pages = Math.ceil(cards.length / perPage);
+
+            for (var p = 0; p < pages; p++) {
+              var page = document.createElement("div");
+              page.className = "tc-page";
+
+              var end = Math.min((p + 1) * perPage, cards.length);
+              for (var i = p * perPage; i < end; i++) {
+                page.appendChild(cards[i]);
+              }
+              track.appendChild(page);
+
+              var dot = document.createElement("button");
+              dot.type = "button";
+              dot.className = "tc-dot";
+              dot.setAttribute("aria-label", "Trang " + (p + 1));
+              (function (idx) {
+                dot.addEventListener("click", function () {
+                  goTo(idx);
+                });
+              })(p);
+              dotsBox.appendChild(dot);
+            }
+
+            if (current >= pages) current = pages - 1;
+            if (current < 0) current = 0;
+            update();
+
+            // Ẩn mũi tên & chấm khi chỉ có 1 trang
+            var single = pages <= 1;
+            prevBtn.style.display = single ? "none" : "";
+            nextBtn.style.display = single ? "none" : "";
+            dotsBox.style.display = single ? "none" : "";
+          }
+
+          function update() {
+            track.style.transform = "translateX(-" + current * 100 + "%)";
+
+            var dots = dotsBox.querySelectorAll(".tc-dot");
+            for (var i = 0; i < dots.length; i++) {
+              dots[i].classList.toggle("active", i === current);
+            }
+
+            prevBtn.disabled = current === 0;
+            nextBtn.disabled = current === pages - 1;
+          }
+
+          function goTo(i) {
+            current = Math.max(0, Math.min(i, pages - 1));
+            update();
+          }
+
+          prevBtn.addEventListener("click", function () {
+            goTo(current - 1);
+          });
+          nextBtn.addEventListener("click", function () {
+            goTo(current + 1);
+          });
+
+          var resizeTimer;
+          window.addEventListener("resize", function () {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(build, 200);
+          });
+
+          build();
+        }
+
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", initTopicCarousel);
+        } else {
+          initTopicCarousel();
+        }
+      })();
     </script>
   </body>
 </html>
